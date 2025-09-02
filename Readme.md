@@ -11,7 +11,7 @@
 A fully automated **WhatsApp bot** with **hacker-terminal UI**, **real-time command handling**, and **media management**.  
 
 ### 🎥 Live Bot Demo (Animated)
-![Matrix Terminal Demo](https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif)  
+![Matrix Terminal Demo](assets/cover.mp4)  
 
 
 ---
