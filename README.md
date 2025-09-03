@@ -1,5 +1,5 @@
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=1200&height=100&lines=HEY%20DEAR%20HELLO;WORLD%20BOT-POWERED-V1%20BY%20CONCORD;MEGATRENDS%20XMD" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=8B0000&center=true&width=1200&height=100&lines=LOADING MODULES...;BOT-POWERED%20BY%20CONCORD%20MEGATRENDS-XMD" alt="Typing SVG" />
 </a>
 <div align="center">
 
