@@ -1,4 +1,7 @@
-IM AURA (CONCORD)
+🤵🏽IM AURA (CONCORD)
+---
+> **CURRENT BOT VERSION ➜ `2.7.0 ⚡`**
+---
 
 🚀 IM AURA is a multi-device WhatsApp assistant powered by Baileys MD, built with a hacker-themed cyberpunk vibe 🕶️.
 It’s crafted for speed ⚡, security 🔐, and full customization 🛠️, giving you complete control over WhatsApp through powerful automation.
@@ -27,7 +30,7 @@ Supports yt-dlp, ffmpeg, and other libraries
 
 Deployable on Heroku / Render / VPS / Katabump
 
-<div align="center"> <a href="https://git.io/typing-svg"> <img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=33ff00&center=true&width=910&height=100&lines=IM+AURA;Multi+Device+Whatsapp+Bot;Coded+By+Professor" alt="Typing SVG" /> </a> </div> <div align="center"> <a href="https://youtube.com/@mr_unique_hacker"> <img src="https://github.com/aura7822/projects/blob/main/assets/cover.mp4" alt="IM AURA" height="300"> </a> </div>
+<div align="center"> <a href="https://git.io/typing-svg"> <img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=33ff00&center=true&width=910&height=100&lines=IM+AURA;Multi+Device+Whatsapp+Bot;Coded+By+Aura" alt="Typing SVG" /> </a> </div> <div align="center"> <a href="https://youtube.com/@mr_unique_hacker"> <img src="https://github.com/aura7822/projects/blob/main/assets/cover.mp4" alt="IM AURA" height="300"> </a> </div>
 🚀 Deployment
 🔹 Step 1: Fork the Repository
 <div align="center"> <a href="https://github.com/aura7822/projects/fork"> <img src="https://img.shields.io/badge/Fork-Repository-blue?style=for-the-badge" alt="Fork this repository"/> </a> </div>
