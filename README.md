@@ -106,10 +106,10 @@ node index.js
 
 👉 Scan the QR code from terminal → Linked Devices in WhatsApp.
 
-## FOR TERMUX/SSH/UBUNTU
+## FOR TERMUX/SSH/LINUX systems
 ```
 Before inputting these commands in termux... You have to extract the bot file in your internal storage. (Downloads folder)
-
+open your terminal :
 apt update && apt upgrade
 pkg update && pkg upgrade
 pkg install bash
@@ -133,7 +133,7 @@ npm start
 ```
 ---
 
-## FOR 24/7 ACTIVATION TERMUX/SSH/UBUNTU
+## FOR 24/7 ACTIVATION TERMUX/SSH/LINUX
 ```
 bash
 npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
