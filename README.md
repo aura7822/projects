@@ -7,7 +7,7 @@
   <img src="https://github.com/aura7822/projects/blob/main/assets/cover.gif" alt="IM AURA Banner" width="100%" height="auto"/>
 
   <!-- Title -->
-  <h1 style="color:#33ff00; font-family:monospace;">🤵🏽 IM AURA (CONCORD)</h1>
+  <h1 style="color:#33ff00; font-family:monospace;">🤵🏽 IM AURA ( CONCORD )</h1>
 
   <p><b>CURRENT BOT VERSION ➜ <code>2.7.0 ⚡</code></b></p>
 
