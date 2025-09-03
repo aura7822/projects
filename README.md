@@ -38,7 +38,7 @@ Every command feels like you’re running Linux in WhatsApp — making chats loo
 
 <div align="center"> 
   <a href="https://youtube.com/@mr_unique_hacker"> 
-    <img src="https://github.com/aura7822/projects/blob/main/assets/cover.mp4" alt="IM AURA" height="300"> 
+    <img src="https://github.com/aura7822/projects/blob/main/assets/image.jpeg" alt="IM AURA" height="300"> 
   </a> 
 </div>
 
@@ -213,7 +213,7 @@ This project is licensed under the MIT License. However, you must:
 
 ## 📜 Copyright Notice
 
-Copyright (c) 2024 Professor. All rights reserved.
+Copyright (c) 2024 Aura. All rights reserved.
 
 This project contains code from various open source projects:
 - Baileys (MIT License)
