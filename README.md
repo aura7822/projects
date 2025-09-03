@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- Hacker Banner -->
-  <img src="https://github.com/aura7822/projects/blob/main/assets/cover.mp4" alt="IM AURA Banner" width="100%" height="auto"/>
+  <img src="https://github.com/aura7822/projects/blob/main/assets/cover.gif" alt="IM AURA Banner" width="100%" height="auto"/>
 
   <!-- Title -->
   <h1 style="color:#33ff00; font-family:monospace;">🤵🏽 IM AURA (CONCORD)</h1>
