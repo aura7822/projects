@@ -6,6 +6,7 @@
 🚀 IM AURA is a multi-device WhatsApp assistant powered by Baileys MD, built with a hacker-themed cyberpunk vibe 🕶️.
 It’s crafted for speed ⚡, security 🔐, and full customization 🛠️, giving you complete control over WhatsApp through powerful automation.
 
+---
 ✨ Core Features
 
 ⚡ Command System → .commands for music, tools, and fun.
@@ -21,7 +22,9 @@ It’s crafted for speed ⚡, security 🔐, and full customization 🛠️, giv
 🎮 Games & Fun → Tic-Tac-Toe, sticker creation (.sticker), memes.
 
 🛠️ Customizable → add or remove commands easily.
+---
 
+---
 🔧 Tech Stack
 
 Node.js + Baileys MD
@@ -29,6 +32,7 @@ Node.js + Baileys MD
 Supports yt-dlp, ffmpeg, and other libraries
 
 Deployable on Heroku / Render / VPS / Katabump
+---
 
 <div align="center"> <a href="https://git.io/typing-svg"> <img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=33ff00&center=true&width=910&height=100&lines=IM+AURA;Multi+Device+Whatsapp+Bot;Coded+By+Aura" alt="Typing SVG" /> </a> </div> <div align="center"> <a href="https://youtube.com/@mr_unique_hacker"> <img src="https://github.com/aura7822/projects/blob/main/assets/cover.mp4" alt="IM AURA" height="300"> </a> </div>
 🚀 Deployment
@@ -44,7 +48,9 @@ Generate a pair code to link your WhatsApp account.
 
 🔹 Step 3: Deploy
 <div align="center"> <a href="https://youtu.be/-oz_u1iMgf8"> <img src="https://img.shields.io/badge/Deploy Tutorial-dc3545?style=for-the-badge&logo=youtube" alt="YouTube Link"/> </a> <a href="https://bot-hosting.net/?aff=1068419752923508776"> <img src="https://img.shields.io/badge/Deploy on Panel-28a745?style=for-the-badge" alt="Deploy on Panel"/> </a> </div>
-⚙️ Additional Features
+
+---
+⚙️ Additional Features :
 
 🧠 AI Chat with .gpt
 
@@ -59,6 +65,7 @@ Generate a pair code to link your WhatsApp account.
 🔗 Anti-link protection for safe groups
 
 🚨 Warn & manage members with strike system
+---
 
 🛠️ Setup & Installation
 🔑 Prerequisites
@@ -66,7 +73,7 @@ Generate a pair code to link your WhatsApp account.
 Node.js
 
 Git
-
+---
 🔹 Steps
 # Clone the repo
 git clone https://github.com/aura7822/projects.git
@@ -80,7 +87,7 @@ node index.js
 
 
 👉 Scan the QR code from terminal → Linked Devices in WhatsApp.
-
+---
 ⚠️ Important Warning
 ! WARNING: This bot is not affiliated with WhatsApp Inc.
 ! Using third-party WhatsApp bots violates WhatsApp's Terms of Service.
@@ -92,7 +99,7 @@ This project is for educational & personal use only 🛠️.
 The developers are not responsible for bans, misuse, or damages.
 
 👉 Use responsibly and at your own risk.
-
+---
 📝 Legal & License
 
 Independent, unofficial software.
@@ -100,8 +107,10 @@ Independent, unofficial software.
 Do not use for spam or illegal activities.
 
 Licensed under MIT License.
+---
 
-Copyright © 2024 Professor.
+Copyright © 2025 aura.
+---
 
 🌟 Support the Project
 
@@ -110,7 +119,7 @@ If you like this bot:
 
 👥 Credits
 
-Professor (Aura)
+Aura
  — Developer
 
 Baileys
