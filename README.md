@@ -20,12 +20,13 @@
 ---
 
 
+
 ---
 🤵🏽IM AURA (CONCORD)
 <div align="center">
   <hr style="border: none; height: 3px; background: linear-gradient(90deg, #00ff00, #33ff00, #00ff00); box-shadow: 0 0 10px #33ff00, 0 0 20px #00ff00;">
 </div>
-
+---
 > **CURRENT BOT VERSION ➜ `2.7.0 ⚡`**
 ---
 ---
@@ -53,7 +54,6 @@ It’s crafted for speed ⚡, security 🔐, and full customization 🛠️, giv
 ---
 
 ---
----
 🔧 Tech Stack
 
 Node.js + Baileys MD
@@ -65,6 +65,9 @@ Deployable on Heroku / Render / VPS / Katabump
 ---
 
 <div align="center"> <a href="https://git.io/typing-svg"> <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=500&color=A020F0&center=true&width=910&height=100&lines=IM+AURA;Multi+Device+Whatsapp+Bot;Coded+By+Aura" alt="Typing SVG" /> </a> </div> <div align="center"> <a href="https://www.youtube.com/watch?v=37RBJt33J68&list=RDGMEMYH9CUrFO7CfLJpaD7UR85wVM37RBJt33J68&start_radio=1"> <img src="https://github.com/aura7822/projects/blob/main/assets/matrix.gif" alt="IM AURA" height="300"> </a> </div>
+---
+
+
 🚀 Deployment
 🔹 Step 1: Fork the Repository
 <div align="center"> <a href="https://github.com/aura7822/projects/fork"> <img src="https://img.shields.io/badge/Fork-Repository-blue?style=for-the-badge" alt="Fork this repository"/> </a> </div>
