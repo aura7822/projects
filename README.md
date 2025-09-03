@@ -1,4 +1,4 @@
-<div align="center"> <a href="https://git.io/typing-svg"> <img src="https://readme-typing-svg.demolab.com?font=Consolas&size=50&pause=1000&color=8B0000&center=true&width=910&height=100&lines=HELLO WORLD;WELCOME" alt="Typing SVG" /> </a> </div> <div align="center"> <a href="https://www.youtube.com/watch?v=37RBJt33J68&list=RDGMEMYH9CUrFO7CfLJpaD7UR85wVM37RBJt33J68&start_radio=1"> </a> </div>
+<div align="center"> <a href="https://git.io/typing-svg"> <img src="https://readme-typing-svg.demolab.com?font=Inconsolata&size=50&pause=1000&color=8B0000&center=true&width=910&height=100&lines=HELLO WORLD;WELCOME" alt="Typing SVG" /> </a> </div> <div align="center"> <a href="https://www.youtube.com/watch?v=37RBJt33J68&list=RDGMEMYH9CUrFO7CfLJpaD7UR85wVM37RBJt33J68&start_radio=1"> </a> </div>
 <div align="center">
 
   <!-- Hacker Banner -->
