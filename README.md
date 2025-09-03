@@ -18,10 +18,14 @@
 
 </div>
 ---
----
 
-🤵🏽IM AURA (CONCORD)
+
 ---
+🤵🏽IM AURA (CONCORD)
+<div align="center">
+  <hr style="border: none; height: 3px; background: linear-gradient(90deg, #00ff00, #33ff00, #00ff00); box-shadow: 0 0 10px #33ff00, 0 0 20px #00ff00;">
+</div>
+
 > **CURRENT BOT VERSION ➜ `2.7.0 ⚡`**
 ---
 ---
