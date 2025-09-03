@@ -1,3 +1,20 @@
+<div align="center">
+
+  <!-- Hacker Banner -->
+  <img src="https://github.com/aura7822/projects/blob/main/assets/cover.mp4" alt="IM AURA Banner" width="100%" height="auto"/>
+
+  <!-- Title -->
+  <h1 style="color:#33ff00; font-family:monospace;">🤵🏽 IM AURA (CONCORD)</h1>
+
+  <p><b>CURRENT BOT VERSION ➜ <code>2.7.0 ⚡</code></b></p>
+
+  <!-- Badges -->
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge&logo=github&color=33ff00" />
+  <img src="https://img.shields.io/badge/Platform-WhatsApp-25D366?style=for-the-badge&logo=whatsapp" />
+  <img src="https://img.shields.io/badge/Made_With-Baileys-blueviolet?style=for-the-badge" />
+
+</div>
+
 🤵🏽IM AURA (CONCORD)
 ---
 > **CURRENT BOT VERSION ➜ `2.7.0 ⚡`**
