@@ -1,8 +1,9 @@
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=500&color=8B0000&center=true&width=1200&height=100&lines=HELLO%20WORLD%20WELCOME;LOADING%20MODULES%20.%20.%20.%20.%20.%20.;CREATED%20BY%20CONCORD-XMD" alt="Typing SVG" />
 </a>
 <div align="center">
-
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
   <!-- Hacker Banner -->
   <img src="https://github.com/aura7822/projects/blob/main/assets/cover.gif" alt="IM AURA Banner" width="100%" height="auto"/>
 
@@ -17,24 +18,24 @@
   <img src="https://img.shields.io/badge/Made_With-Baileys-blueviolet?style=for-the-badge" />
 
 </div>
----
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-
----
 🤵🏽IM AURA (CONCORD)
 <div align="center">
   <hr style="border: none; height: 3px; background: linear-gradient(90deg, #00ff00, #33ff00, #00ff00); box-shadow: 0 0 10px #33ff00, 0 0 20px #00ff00;">
 </div>
----
 > **CURRENT BOT VERSION ➜ `2.7.0 ⚡`**
----
----
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
 
 🚀 IM AURA is a multi-device WhatsApp assistant powered by Baileys MD, built with a hacker-themed cyberpunk vibe 🕶️.
 It’s crafted for speed ⚡, security 🔐, and full customization 🛠️, giving you complete control over WhatsApp through powerful automation.
 
----
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 ✨ Core Features
 
 ⚡ Command System → .commands for music, tools, and fun.
@@ -50,10 +51,10 @@ It’s crafted for speed ⚡, security 🔐, and full customization 🛠️, giv
 🎮 Games & Fun → Tic-Tac-Toe, sticker creation (.sticker), memes.
 
 🛠️ Customizable → add or remove commands easily.
----
----
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
----
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
 🔧 Tech Stack
 
 Node.js + Baileys MD
@@ -61,11 +62,11 @@ Node.js + Baileys MD
 Supports yt-dlp, ffmpeg, and other libraries
 
 Deployable on Heroku / Render / VPS / Katabump
----
----
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 <div align="center"> <a href="https://git.io/typing-svg"> <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=500&color=A020F0&center=true&width=910&height=100&lines=IM+AURA;Multi+Device+Whatsapp+Bot;Coded+By+Aura" alt="Typing SVG" /> </a> </div> <div align="center"> <a href="https://www.youtube.com/watch?v=37RBJt33J68&list=RDGMEMYH9CUrFO7CfLJpaD7UR85wVM37RBJt33J68&start_radio=1"> <img src="https://github.com/aura7822/projects/blob/main/assets/matrix.gif" alt="IM AURA" height="300"> </a> </div>
----
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 
 🚀 Deployment
@@ -82,8 +83,8 @@ Generate a pair code to link your WhatsApp account.
 🔹 Step 3: Deploy
 <div align="center"> <a href="https://youtu.be/-oz_u1iMgf8"> <img src="https://img.shields.io/badge/Deploy Tutorial-dc3545?style=for-the-badge&logo=youtube" alt="YouTube Link"/> </a> <a href="https://bot-hosting.net/?aff=1068419752923508776"> <img src="https://img.shields.io/badge/Deploy on Panel-28a745?style=for-the-badge" alt="Deploy on Panel"/> </a> </div>
 
----
----
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 ⚙️ Additional Features :
 
 🧠 AI Chat with .gpt
@@ -99,8 +100,8 @@ Generate a pair code to link your WhatsApp account.
 🔗 Anti-link protection for safe groups
 
 🚨 Warn & manage members with strike system
----
----
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 🛠️ Setup & Installation
 🔑 Prerequisites
@@ -108,8 +109,8 @@ Generate a pair code to link your WhatsApp account.
 Node.js
 
 Git
----
----
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 🔹 Steps
 # Clone the repo
 git clone https://github.com/aura7822/projects.git
@@ -142,16 +143,16 @@ cd /storage/emulated/0/Download/ELITE-PRO-V1-main
 yarn install
 npm start
 ```
----
----
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 ## FOR STARTING TERMUX AGAIN
 ```
 cd /storage/emulated/0/Download/ELITE-PRO-V1-main
 npm start
 ```
----
----
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 ## FOR 24/7 ACTIVATION TERMUX/SSH/LINUX
 ```
@@ -159,9 +160,9 @@ bash
 npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 Paste this after the installation
 ```
----
----
----
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 ⚠️ Important Warning
 ! WARNING: This bot is not affiliated with WhatsApp Inc.
 ! Using third-party WhatsApp bots violates WhatsApp's Terms of Service.
@@ -173,8 +174,8 @@ This project is for educational & personal use only 🛠️.
 The developers are not responsible for bans, misuse, or damages.
 
 👉 Use responsibly and at your own risk.
----
----
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 📝 Legal & License
 
 Independent, unofficial software.
@@ -182,11 +183,11 @@ Independent, unofficial software.
 Do not use for spam or illegal activities.
 
 Licensed under MIT License.
----
----
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 Copyright © 2025 aura.
----
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 🌟 Support the Project
 
