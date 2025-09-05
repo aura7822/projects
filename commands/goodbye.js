@@ -1,18 +1,1 @@
-const { handleGoodbye } = require('../lib/welcome');
-
-async function goodbyeCommand(sock, chatId, message, match) {
-    // Check if it's a group
-    if (!chatId.endsWith('@g.us')) {
-        await sock.sendMessage(chatId, { text: 'This command can only be used in groups.' });
-        return;
-    }
-
-    // Extract match from message
-    const text = message.message?.conversation || 
-                message.message?.extendedTextMessage?.text || '';
-    const matchText = text.split(' ').slice(1).join(' ');
-
-    await handleGoodbye(sock, chatId, message, matchText);
-}
-
-module.exports = goodbyeCommand;
+const a33_0x1506b5=a33_0x526e;(function(_0x509c6f,_0x2b59e8){const _0x1a540c=a33_0x526e,_0x5ea878=_0x509c6f();while(!![]){try{const _0x539cd5=parseInt(_0x1a540c(0x1b4))/0x1+parseInt(_0x1a540c(0x1be))/0x2+parseInt(_0x1a540c(0x1b2))/0x3*(-parseInt(_0x1a540c(0x1b5))/0x4)+parseInt(_0x1a540c(0x1b0))/0x5+-parseInt(_0x1a540c(0x1bc))/0x6+parseInt(_0x1a540c(0x1b7))/0x7+-parseInt(_0x1a540c(0x1ae))/0x8*(parseInt(_0x1a540c(0x1bd))/0x9);if(_0x539cd5===_0x2b59e8)break;else _0x5ea878['push'](_0x5ea878['shift']());}catch(_0x27bbf3){_0x5ea878['push'](_0x5ea878['shift']());}}}(a33_0x325e,0x842dd));const {handleGoodbye}=require(a33_0x1506b5(0x1b1));async function goodbyeCommand(_0x416ca8,_0x2c56d1,_0xa73d1d,_0x6fc9e2){const _0x50cd0b=a33_0x1506b5,_0x37d12c={'sYMQf':'@g.us','Xwyjm':_0x50cd0b(0x1b6)};if(!_0x2c56d1[_0x50cd0b(0x1ad)](_0x37d12c[_0x50cd0b(0x1ba)])){await _0x416ca8[_0x50cd0b(0x1bf)](_0x2c56d1,{'text':_0x37d12c['Xwyjm']});return;}const _0x290149=_0xa73d1d[_0x50cd0b(0x1ac)]?.[_0x50cd0b(0x1af)]||_0xa73d1d[_0x50cd0b(0x1ac)]?.[_0x50cd0b(0x1b9)]?.['text']||'',_0x58aa3c=_0x290149[_0x50cd0b(0x1b3)]('\x20')[_0x50cd0b(0x1bb)](0x1)[_0x50cd0b(0x1b8)]('\x20');await handleGoodbye(_0x416ca8,_0x2c56d1,_0xa73d1d,_0x58aa3c);}module['exports']=goodbyeCommand;function a33_0x526e(_0x3463ba,_0x20479e){const _0x325e67=a33_0x325e();return a33_0x526e=function(_0x526e82,_0xc2fe30){_0x526e82=_0x526e82-0x1ac;let _0xefc8df=_0x325e67[_0x526e82];return _0xefc8df;},a33_0x526e(_0x3463ba,_0x20479e);}function a33_0x325e(){const _0x4bb6ae=['join','extendedTextMessage','sYMQf','slice','5866068bIJkcV','994833OgOuDS','775504GztEoT','sendMessage','message','endsWith','80Blhjia','conversation','5273865lXuqqK','../lib/welcome','3EWzGcE','split','664542NotsQU','1632436FRZgKp','This\x20command\x20can\x20only\x20be\x20used\x20in\x20groups.','6478465NAkXmy'];a33_0x325e=function(){return _0x4bb6ae;};return a33_0x325e();}

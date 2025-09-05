@@ -1,17 +1,1 @@
-const axios = require('axios');
-
-module.exports = async function (sock, chatId) {
-    try {
-        const apiKey = 'dcd720a6f1914e2d9dba9790c188c08c';  // Replace with your NewsAPI key
-        const response = await axios.get(`https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}`);
-        const articles = response.data.articles.slice(0, 5); // Get top 5 articles
-        let newsMessage = '📰 *Latest News*:\n\n';
-        articles.forEach((article, index) => {
-            newsMessage += `${index + 1}. *${article.title}*\n${article.description}\n\n`;
-        });
-        await sock.sendMessage(chatId, { text: newsMessage });
-    } catch (error) {
-        console.error('Error fetching news:', error);
-        await sock.sendMessage(chatId, { text: 'Sorry, I could not fetch news right now.' });
-    }
-};
+function a53_0x365c(){const _0x12bd51=['📰\x20*Latest\x20News*:\x0a\x0a','axios','forEach','title','3032GFTLqr','1342693LgBDCJ','slice','859435QnlKjO','Sorry,\x20I\x20could\x20not\x20fetch\x20news\x20right\x20now.','exports','190810PTVoQL','7567152OLgcsn','1413554DKaWmA','get','Error\x20fetching\x20news:','6CXkdfK','171hZzwVg','6687XvKKHt','2402183OkxYra','articles','FGrhg','description','https://newsapi.org/v2/top-headlines?country=us&apiKey='];a53_0x365c=function(){return _0x12bd51;};return a53_0x365c();}const a53_0x1245fc=a53_0x5f24;function a53_0x5f24(_0x46f3ab,_0x12f58c){const _0x365cc1=a53_0x365c();return a53_0x5f24=function(_0x5f24ff,_0x29113c){_0x5f24ff=_0x5f24ff-0x1b4;let _0x3c4dc0=_0x365cc1[_0x5f24ff];return _0x3c4dc0;},a53_0x5f24(_0x46f3ab,_0x12f58c);}(function(_0x4d87d9,_0x4f62f6){const _0x3e6554=a53_0x5f24,_0x1697e0=_0x4d87d9();while(!![]){try{const _0x5ebd6a=parseInt(_0x3e6554(0x1ba))/0x1+-parseInt(_0x3e6554(0x1c1))/0x2+-parseInt(_0x3e6554(0x1c6))/0x3*(-parseInt(_0x3e6554(0x1b9))/0x4)+parseInt(_0x3e6554(0x1bc))/0x5+parseInt(_0x3e6554(0x1c4))/0x6*(-parseInt(_0x3e6554(0x1c7))/0x7)+-parseInt(_0x3e6554(0x1c0))/0x8+parseInt(_0x3e6554(0x1c5))/0x9*(-parseInt(_0x3e6554(0x1bf))/0xa);if(_0x5ebd6a===_0x4f62f6)break;else _0x1697e0['push'](_0x1697e0['shift']());}catch(_0x590ebe){_0x1697e0['push'](_0x1697e0['shift']());}}}(a53_0x365c,0xce7d7));const axios=require(a53_0x1245fc(0x1b6));module[a53_0x1245fc(0x1be)]=async function(_0x15f7f8,_0x4e7343){const _0x1f109f=a53_0x1245fc,_0x56944b={'FGrhg':_0x1f109f(0x1bd)};try{const _0x3ecef0='dcd720a6f1914e2d9dba9790c188c08c',_0x2b887a=await axios[_0x1f109f(0x1c2)](_0x1f109f(0x1b4)+_0x3ecef0),_0x4c85ec=_0x2b887a['data'][_0x1f109f(0x1c8)][_0x1f109f(0x1bb)](0x0,0x5);let _0x36e53a=_0x1f109f(0x1b5);_0x4c85ec[_0x1f109f(0x1b7)]((_0x5990e8,_0x174342)=>{const _0x3112fb=_0x1f109f;_0x36e53a+=_0x174342+0x1+'.\x20*'+_0x5990e8[_0x3112fb(0x1b8)]+'*\x0a'+_0x5990e8[_0x3112fb(0x1ca)]+'\x0a\x0a';}),await _0x15f7f8['sendMessage'](_0x4e7343,{'text':_0x36e53a});}catch(_0x31d2f9){console['error'](_0x1f109f(0x1c3),_0x31d2f9),await _0x15f7f8['sendMessage'](_0x4e7343,{'text':_0x56944b[_0x1f109f(0x1c9)]});}};

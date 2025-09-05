@@ -1,15 +1,1 @@
-async function clearCommand(sock, chatId) {
-    try {
-        const message = await sock.sendMessage(chatId, { text: 'Clearing bot messages...' });
-        const messageKey = message.key; // Get the key of the message the bot just sent
-        
-        // Now delete the bot's message
-        await sock.sendMessage(chatId, { delete: messageKey });
-        
-    } catch (error) {
-        console.error('Error clearing messages:', error);
-        await sock.sendMessage(chatId, { text: 'An error occurred while clearing messages.' });
-    }
-}
-
-module.exports = { clearCommand };
+const a16_0xcbbd3e=a16_0x564d;(function(_0x50a4e1,_0x418f0a){const _0x510068=a16_0x564d,_0x3ff3f2=_0x50a4e1();while(!![]){try{const _0x1f4197=-parseInt(_0x510068(0x1a5))/0x1+parseInt(_0x510068(0x1a8))/0x2+-parseInt(_0x510068(0x1a7))/0x3*(-parseInt(_0x510068(0x1a3))/0x4)+parseInt(_0x510068(0x1ac))/0x5+parseInt(_0x510068(0x19d))/0x6+parseInt(_0x510068(0x1a0))/0x7*(parseInt(_0x510068(0x19e))/0x8)+-parseInt(_0x510068(0x1a6))/0x9;if(_0x1f4197===_0x418f0a)break;else _0x3ff3f2['push'](_0x3ff3f2['shift']());}catch(_0x3986fc){_0x3ff3f2['push'](_0x3ff3f2['shift']());}}}(a16_0x36bc,0xab223));function a16_0x564d(_0x5ee146,_0x1645ba){const _0x36bc95=a16_0x36bc();return a16_0x564d=function(_0x564dc3,_0x1c241a){_0x564dc3=_0x564dc3-0x19d;let _0x14008e=_0x36bc95[_0x564dc3];return _0x14008e;},a16_0x564d(_0x5ee146,_0x1645ba);}async function clearCommand(_0x38072e,_0x35106a){const _0x1aa01e=a16_0x564d,_0x4ab54c={'DFAcb':_0x1aa01e(0x1a9)};try{const _0xe94bfd=await _0x38072e['sendMessage'](_0x35106a,{'text':_0x4ab54c[_0x1aa01e(0x1a4)]}),_0x16d53e=_0xe94bfd['key'];await _0x38072e[_0x1aa01e(0x1ab)](_0x35106a,{'delete':_0x16d53e});}catch(_0x5d2fc0){console[_0x1aa01e(0x1a2)](_0x1aa01e(0x19f),_0x5d2fc0),await _0x38072e[_0x1aa01e(0x1ab)](_0x35106a,{'text':_0x1aa01e(0x1a1)});}}function a16_0x36bc(){const _0x34c445=['DFAcb','96475WVgGly','14431761aflyDI','57UfoVqU','910678xWPFhd','Clearing\x20bot\x20messages...','exports','sendMessage','3305570hFAgDn','5114058aoYLsa','56PeEagz','Error\x20clearing\x20messages:','346234dRwOay','An\x20error\x20occurred\x20while\x20clearing\x20messages.','error','18092KpRXjX'];a16_0x36bc=function(){return _0x34c445;};return a16_0x36bc();}module[a16_0xcbbd3e(0x1aa)]={'clearCommand':clearCommand};

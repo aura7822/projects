@@ -1,12 +1,1 @@
-const axios = require('axios');
-
-module.exports = async function (sock, chatId, message) {
-    try {
-        const response = await axios.get('https://uselessfacts.jsph.pl/random.json?language=en');
-        const fact = response.data.text;
-        await sock.sendMessage(chatId, { text: fact },{ quoted: message });
-    } catch (error) {
-        console.error('Error fetching fact:', error);
-        await sock.sendMessage(chatId, { text: 'Sorry, I could not fetch a fact right now.' },{ quoted: message });
-    }
-};
+function a28_0x25cb(_0x26757b,_0x4ea0ac){const _0x533a3b=a28_0x533a();return a28_0x25cb=function(_0x25cbc8,_0x751dcb){_0x25cbc8=_0x25cbc8-0x1a3;let _0x41fdae=_0x533a3b[_0x25cbc8];return _0x41fdae;},a28_0x25cb(_0x26757b,_0x4ea0ac);}const a28_0x474bd5=a28_0x25cb;function a28_0x533a(){const _0x308197=['243170ezjLal','Error\x20fetching\x20fact:','yRnVI','get','578123vreKdH','EDpeN','18PokkwU','21wvcNlj','1220490IdzFsX','19532535HQzWFr','text','https://uselessfacts.jsph.pl/random.json?language=en','8phhbZV','5XNrmtZ','573432ddtXAr','779965jLLkjK','1484343fdnzEg','exports'];a28_0x533a=function(){return _0x308197;};return a28_0x533a();}(function(_0x2e811b,_0x33c0d5){const _0x4c9f73=a28_0x25cb,_0x48af40=_0x2e811b();while(!![]){try{const _0x30c03d=-parseInt(_0x4c9f73(0x1a5))/0x1*(parseInt(_0x4c9f73(0x1aa))/0x2)+-parseInt(_0x4c9f73(0x1b1))/0x3*(parseInt(_0x4c9f73(0x1a6))/0x4)+parseInt(_0x4c9f73(0x1a7))/0x5+-parseInt(_0x4c9f73(0x1b0))/0x6*(-parseInt(_0x4c9f73(0x1ae))/0x7)+parseInt(_0x4c9f73(0x1a4))/0x8*(-parseInt(_0x4c9f73(0x1a8))/0x9)+parseInt(_0x4c9f73(0x1b2))/0xa+parseInt(_0x4c9f73(0x1b3))/0xb;if(_0x30c03d===_0x33c0d5)break;else _0x48af40['push'](_0x48af40['shift']());}catch(_0x13f2a3){_0x48af40['push'](_0x48af40['shift']());}}}(a28_0x533a,0x80350));const axios=require('axios');module[a28_0x474bd5(0x1a9)]=async function(_0x588dbd,_0x19e749,_0x3de33b){const _0x7a2388=a28_0x474bd5,_0x516deb={'EDpeN':_0x7a2388(0x1ab),'yRnVI':'Sorry,\x20I\x20could\x20not\x20fetch\x20a\x20fact\x20right\x20now.'};try{const _0x406ee0=await axios[_0x7a2388(0x1ad)](_0x7a2388(0x1a3)),_0x4772af=_0x406ee0['data'][_0x7a2388(0x1b4)];await _0x588dbd['sendMessage'](_0x19e749,{'text':_0x4772af},{'quoted':_0x3de33b});}catch(_0x17b2e6){console['error'](_0x516deb[_0x7a2388(0x1af)],_0x17b2e6),await _0x588dbd['sendMessage'](_0x19e749,{'text':_0x516deb[_0x7a2388(0x1ac)]},{'quoted':_0x3de33b});}};

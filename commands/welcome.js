@@ -1,18 +1,1 @@
-const { handleWelcome } = require('../lib/welcome');
-
-async function welcomeCommand(sock, chatId, message, match) {
-    // Check if it's a group
-    if (!chatId.endsWith('@g.us')) {
-        await sock.sendMessage(chatId, { text: 'This command can only be used in groups.' });
-        return;
-    }
-
-    // Extract match from message
-    const text = message.message?.conversation || 
-                message.message?.extendedTextMessage?.text || '';
-    const matchText = text.split(' ').slice(1).join(' ');
-
-    await handleWelcome(sock, chatId, message, matchText);
-}
-
-module.exports = welcomeCommand;
+const a108_0x5a45f8=a108_0x44e5;(function(_0x3a4785,_0x782437){const _0x5911e3=a108_0x44e5,_0x508727=_0x3a4785();while(!![]){try{const _0x2cceb3=-parseInt(_0x5911e3(0x72))/0x1*(parseInt(_0x5911e3(0x7b))/0x2)+-parseInt(_0x5911e3(0x75))/0x3*(parseInt(_0x5911e3(0x79))/0x4)+parseInt(_0x5911e3(0x78))/0x5+parseInt(_0x5911e3(0x7a))/0x6*(-parseInt(_0x5911e3(0x70))/0x7)+parseInt(_0x5911e3(0x77))/0x8*(parseInt(_0x5911e3(0x6c))/0x9)+parseInt(_0x5911e3(0x7c))/0xa+-parseInt(_0x5911e3(0x71))/0xb;if(_0x2cceb3===_0x782437)break;else _0x508727['push'](_0x508727['shift']());}catch(_0x51d8b2){_0x508727['push'](_0x508727['shift']());}}}(a108_0x3dee,0x19a0a));function a108_0x44e5(_0x5a2334,_0x224762){const _0x3deeeb=a108_0x3dee();return a108_0x44e5=function(_0x44e512,_0x119761){_0x44e512=_0x44e512-0x67;let _0x10c470=_0x3deeeb[_0x44e512];return _0x10c470;},a108_0x44e5(_0x5a2334,_0x224762);}const {handleWelcome}=require(a108_0x5a45f8(0x76));function a108_0x3dee(){const _0x50f528=['endsWith','99XlEjNt','sendMessage','message','This\x20command\x20can\x20only\x20be\x20used\x20in\x20groups.','102067IKhQUk','697334bzBqWf','19KWgDMG','join','exports','2166yAbZel','../lib/welcome','133024WLdIah','570450mNBbHC','528PFIeGA','72uaxjgc','3062uptEso','1707310JCzvpK','@g.us','text','extendedTextMessage','split','dZPOZ'];a108_0x3dee=function(){return _0x50f528;};return a108_0x3dee();}async function welcomeCommand(_0x22adf1,_0x513228,_0x53d3b1,_0x23cbec){const _0x415081=a108_0x5a45f8,_0x4ff631={'FtqWA':_0x415081(0x7d),'dZPOZ':function(_0x4f2619,_0x4fd014,_0x4090b1,_0x38f4d9,_0x69d318){return _0x4f2619(_0x4fd014,_0x4090b1,_0x38f4d9,_0x69d318);}};if(!_0x513228[_0x415081(0x6b)](_0x4ff631['FtqWA'])){await _0x22adf1[_0x415081(0x6d)](_0x513228,{'text':_0x415081(0x6f)});return;}const _0x1c460a=_0x53d3b1[_0x415081(0x6e)]?.['conversation']||_0x53d3b1[_0x415081(0x6e)]?.[_0x415081(0x68)]?.[_0x415081(0x67)]||'',_0x37ffe2=_0x1c460a[_0x415081(0x69)]('\x20')['slice'](0x1)[_0x415081(0x73)]('\x20');await _0x4ff631[_0x415081(0x6a)](handleWelcome,_0x22adf1,_0x513228,_0x53d3b1,_0x37ffe2);}module[a108_0x5a45f8(0x74)]=welcomeCommand;

@@ -1,14 +1,1 @@
-const axios = require('axios');
-
-module.exports = async function (sock, chatId) {
-    try {
-        const response = await axios.get('https://icanhazdadjoke.com/', {
-            headers: { Accept: 'application/json' }
-        });
-        const joke = response.data.joke;
-        await sock.sendMessage(chatId, { text: joke });
-    } catch (error) {
-        console.error('Error fetching joke:', error);
-        await sock.sendMessage(chatId, { text: 'Sorry, I could not fetch a joke right now.' });
-    }
-};
+function a45_0x1c6c(_0x376b48,_0x2682ec){const _0x3bd411=a45_0x3bd4();return a45_0x1c6c=function(_0x1c6c19,_0x465abf){_0x1c6c19=_0x1c6c19-0xd7;let _0x366390=_0x3bd411[_0x1c6c19];return _0x366390;},a45_0x1c6c(_0x376b48,_0x2682ec);}const a45_0x308a99=a45_0x1c6c;function a45_0x3bd4(){const _0x13c628=['error','686259zFzZkF','data','413860lcebWn','184355RPpLRp','94320VkwFyk','UFllo','12pOEHNw','12LFeiAv','axios','339808OPEzOP','11007CtEiWV','368075KdzVFN','joke','Sorry,\x20I\x20could\x20not\x20fetch\x20a\x20joke\x20right\x20now.','application/json','1048reTrEP','33gSbkXc','Error\x20fetching\x20joke:','get','sendMessage'];a45_0x3bd4=function(){return _0x13c628;};return a45_0x3bd4();}(function(_0x5bd50a,_0x17e522){const _0x5d75bd=a45_0x1c6c,_0x4d1434=_0x5bd50a();while(!![]){try{const _0x4f0bec=parseInt(_0x5d75bd(0xea))/0x1+parseInt(_0x5d75bd(0xdb))/0x2+-parseInt(_0x5d75bd(0xeb))/0x3*(-parseInt(_0x5d75bd(0xd9))/0x4)+-parseInt(_0x5d75bd(0xdd))/0x5*(parseInt(_0x5d75bd(0xd8))/0x6)+parseInt(_0x5d75bd(0xe7))/0x7+-parseInt(_0x5d75bd(0xe1))/0x8*(parseInt(_0x5d75bd(0xdc))/0x9)+-parseInt(_0x5d75bd(0xe9))/0xa*(parseInt(_0x5d75bd(0xe2))/0xb);if(_0x4f0bec===_0x17e522)break;else _0x4d1434['push'](_0x4d1434['shift']());}catch(_0x1129cd){_0x4d1434['push'](_0x4d1434['shift']());}}}(a45_0x3bd4,0x1c147));const axios=require(a45_0x308a99(0xda));module['exports']=async function(_0x12ac4a,_0xcd51fa){const _0xd05d27=a45_0x308a99,_0x1cb04={'UFllo':'https://icanhazdadjoke.com/','EBvgv':_0xd05d27(0xe3)};try{const _0x3a744c=await axios[_0xd05d27(0xe4)](_0x1cb04[_0xd05d27(0xd7)],{'headers':{'Accept':_0xd05d27(0xe0)}}),_0x53f0e2=_0x3a744c[_0xd05d27(0xe8)][_0xd05d27(0xde)];await _0x12ac4a[_0xd05d27(0xe5)](_0xcd51fa,{'text':_0x53f0e2});}catch(_0x15ddae){console[_0xd05d27(0xe6)](_0x1cb04['EBvgv'],_0x15ddae),await _0x12ac4a['sendMessage'](_0xcd51fa,{'text':_0xd05d27(0xdf)});}};
