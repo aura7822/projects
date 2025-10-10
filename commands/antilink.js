@@ -1,1 +1,177 @@
-function a7_0x5cc7(){const _0x24eb2f=['log','vKOie','Spmvj','*_Failed\x20to\x20turn\x20on\x20Antilink_*','get','*_Failed\x20to\x20set\x20Antilink\x20action_*','Error\x20in\x20antilink\x20command:','split','../lib/antilink','*_Invalid\x20action.\x20Choose\x20delete,\x20kick,\x20or\x20warn._*','nVzuW','WhatsApp\x20group\x20link\x20protection\x20is\x20enabled.','test','21WNmBEW','rbkni','includes','SDcCg','*_Antilink\x20is\x20already\x20on_*','error','trim','whatsappGroup','KcNuV','BLXHa','AtVco','slice','toLowerCase','hBuxN','4749YHYQeN','key','2265288ByFcPe','5511627sGBEnx','antilink\x20set\x20delete\x20|\x20kick\x20|\x20warn_*','Warning!\x20@','Full\x20message\x20object:\x20','Antilink\x20Setting\x20for\x20','warn','OOmjM','antilink\x20off\x0a```','Message\x20with\x20ID\x20','set','action','*_Antilink\x20action\x20set\x20to\x20','```For\x20Group\x20Admins\x20Only!```','*_Antilink\x20Configuration:_*\x0aStatus:\x20','YkHAJ',',\x20posting\x20links\x20is\x20not\x20allowed.','BxlbY','off','Checking\x20message\x20for\x20links:\x20','hfkny','*_Antilink\x20has\x20been\x20turned\x20ON_*','allLinks','antilink\x20on\x0a','\x20from\x20participant:\x20','531690mBnCPQ','6vfZQju','antilink\x20set\x20delete\x20|\x20kick\x20|\x20warn\x0a','3541028ZMueNX','218sivbVz','Failed\x20to\x20delete\x20message:','mBuBq','whatsappChannel','2811561yUmGaM','VbycG','WsCHM','sendMessage','cYYTl','length','rnpnF','297NeTTgg','OGLVq','../lib/isAdmin','\x20deleted\x20successfully.','854250VPYrbr','iZWRU','kick','antilink\x20for\x20usage._*','*_Please\x20specify\x20an\x20action:\x20','participant','Attempting\x20to\x20delete\x20message\x20with\x20id:\x20','telegram','delete','```ANTILINK\x20SETUP\x0a\x0a','*_Antilink\x20has\x20been\x20turned\x20OFF_*','*_Error\x20processing\x20antilink\x20command_*','DqqiQ','OFF','No\x20link\x20detected\x20or\x20protection\x20not\x20enabled\x20for\x20this\x20type\x20of\x20link.'];a7_0x5cc7=function(){return _0x24eb2f;};return a7_0x5cc7();}const a7_0x126f88=a7_0x4672;(function(_0x5388a0,_0x23327f){const _0x46428f=a7_0x4672,_0xaf7436=_0x5388a0();while(!![]){try{const _0x3117be=-parseInt(_0x46428f(0x138))/0x1*(-parseInt(_0x46428f(0xff))/0x2)+parseInt(_0x46428f(0x103))/0x3+parseInt(_0x46428f(0xfe))/0x4+-parseInt(_0x46428f(0x10e))/0x5*(parseInt(_0x46428f(0xfc))/0x6)+parseInt(_0x46428f(0x12a))/0x7*(-parseInt(_0x46428f(0x13a))/0x8)+parseInt(_0x46428f(0x13b))/0x9+-parseInt(_0x46428f(0xfb))/0xa*(parseInt(_0x46428f(0x10a))/0xb);if(_0x3117be===_0x23327f)break;else _0xaf7436['push'](_0xaf7436['shift']());}catch(_0x4f8852){_0xaf7436['push'](_0xaf7436['shift']());}}}(a7_0x5cc7,0x793d0));const {bots}=require(a7_0x126f88(0x125)),{setAntilink,getAntilink,removeAntilink}=require('../lib/index'),isAdmin=require(a7_0x126f88(0x10c));async function handleAntilinkCommand(_0x293d2d,_0x520033,_0x79c9a7,_0x2ed317,_0x3e3cf5){const _0x20b361=a7_0x126f88,_0xa1d9d7={'KcNuV':_0x20b361(0xef),'AtVco':function(_0x706e4b,_0x1f09a2,_0x1f1fa3){return _0x706e4b(_0x1f09a2,_0x1f1fa3);},'WzTdq':_0x20b361(0x12e),'BxlbY':function(_0x45f1d1,_0x16b56d,_0x257496,_0x2218b1){return _0x45f1d1(_0x16b56d,_0x257496,_0x2218b1);},'rbkni':_0x20b361(0x116),'EAcIY':_0x20b361(0x120),'SDcCg':_0x20b361(0x118),'iZWRU':_0x20b361(0xec),'vKOie':_0x20b361(0x110),'YkHAJ':_0x20b361(0xe8),'hfkny':function(_0x36debc,_0x537946,_0x3ebe65,_0x1b13d9){return _0x36debc(_0x537946,_0x3ebe65,_0x1b13d9);},'vaGqs':_0x20b361(0x122),'OOmjM':_0x20b361(0x121),'cYYTl':function(_0x6423fc,_0x13a198,_0x459196){return _0x6423fc(_0x13a198,_0x459196);},'OGLVq':_0x20b361(0x11b),'mBuBq':_0x20b361(0x123)};try{if(!_0x3e3cf5){await _0x293d2d[_0x20b361(0x106)](_0x520033,{'text':_0xa1d9d7[_0x20b361(0x132)]});return;}const _0x40b7c3='.',_0x770c57=_0x79c9a7[_0x20b361(0x135)](0x9)[_0x20b361(0x136)]()[_0x20b361(0x130)]()[_0x20b361(0x124)]('\x20'),_0x598786=_0x770c57[0x0];if(!_0x598786){const _0x52171c=_0x20b361(0x117)+_0x40b7c3+_0x20b361(0xf9)+_0x40b7c3+_0x20b361(0xfd)+_0x40b7c3+_0x20b361(0xea);await _0x293d2d[_0x20b361(0x106)](_0x520033,{'text':_0x52171c});return;}switch(_0x598786){case'on':const _0x2f8467=await _0xa1d9d7['AtVco'](getAntilink,_0x520033,'on');if(_0x2f8467?.['enabled']){await _0x293d2d['sendMessage'](_0x520033,{'text':_0xa1d9d7['WzTdq']});return;}const _0x232f63=await _0xa1d9d7[_0x20b361(0xf3)](setAntilink,_0x520033,'on',_0xa1d9d7[_0x20b361(0x12b)]);await _0x293d2d[_0x20b361(0x106)](_0x520033,{'text':_0x232f63?_0x20b361(0xf7):_0xa1d9d7['EAcIY']});break;case'off':await removeAntilink(_0x520033,'on'),await _0x293d2d[_0x20b361(0x106)](_0x520033,{'text':_0xa1d9d7[_0x20b361(0x12d)]});break;case _0xa1d9d7[_0x20b361(0x10f)]:if(_0x770c57[_0x20b361(0x108)]<0x2){await _0x293d2d[_0x20b361(0x106)](_0x520033,{'text':_0x20b361(0x112)+_0x40b7c3+_0x20b361(0x13c)});return;}const _0x29c387=_0x770c57[0x1];if(![_0x20b361(0x116),_0xa1d9d7[_0x20b361(0x11e)],_0xa1d9d7[_0x20b361(0xf1)]][_0x20b361(0x12c)](_0x29c387)){await _0x293d2d[_0x20b361(0x106)](_0x520033,{'text':_0x20b361(0x126)});return;}const _0x379a0f=await _0xa1d9d7[_0x20b361(0xf6)](setAntilink,_0x520033,'on',_0x29c387);await _0x293d2d[_0x20b361(0x106)](_0x520033,{'text':_0x379a0f?_0x20b361(0xee)+_0x29c387+'_*':_0xa1d9d7['vaGqs']});break;case _0xa1d9d7[_0x20b361(0xe9)]:const _0x230b2c=await _0xa1d9d7[_0x20b361(0x134)](getAntilink,_0x520033,'on'),_0x37238f=await _0xa1d9d7[_0x20b361(0x107)](getAntilink,_0x520033,'on');await _0x293d2d['sendMessage'](_0x520033,{'text':_0x20b361(0xf0)+(_0x230b2c?'ON':_0xa1d9d7[_0x20b361(0x10b)])+'\x0aAction:\x20'+(_0x37238f?_0x37238f[_0x20b361(0xed)]:'Not\x20set')});break;default:await _0x293d2d[_0x20b361(0x106)](_0x520033,{'text':'*_Use\x20'+_0x40b7c3+_0x20b361(0x111)});}}catch(_0xe8d43b){console[_0x20b361(0x12f)](_0xa1d9d7[_0x20b361(0x101)],_0xe8d43b),await _0x293d2d['sendMessage'](_0x520033,{'text':_0x20b361(0x119)});}}function a7_0x4672(_0x3b1283,_0x490f50){const _0x5cc741=a7_0x5cc7();return a7_0x4672=function(_0x467227,_0x4210b9){_0x467227=_0x467227-0xe8;let _0x4a6b88=_0x5cc741[_0x467227];return _0x4a6b88;},a7_0x4672(_0x3b1283,_0x490f50);}async function handleLinkDetection(_0x5da634,_0x1021bf,_0xf17a2c,_0x42285c,_0x18441b){const _0x4b8645=a7_0x126f88,_0x31efe1={'nVzuW':function(_0x17357a,_0x4a554a){return _0x17357a(_0x4a554a);},'VbycG':_0x4b8645(0xf4),'iLOqA':'whatsappGroup','GuXTD':_0x4b8645(0x128),'rnpnF':'Detected\x20a\x20WhatsApp\x20group\x20link!','hBuxN':function(_0x33b151,_0x588181){return _0x33b151===_0x588181;},'BLXHa':_0x4b8645(0x102),'WsCHM':_0x4b8645(0x115),'DqqiQ':_0x4b8645(0x100),'Spmvj':_0x4b8645(0x11c)},_0x151974=_0x31efe1[_0x4b8645(0x127)](getAntilinkSetting,_0x1021bf);if(_0x151974===_0x31efe1[_0x4b8645(0x104)])return;console[_0x4b8645(0x11d)](_0x4b8645(0x13f)+_0x1021bf+':\x20'+_0x151974),console[_0x4b8645(0x11d)](_0x4b8645(0xf5)+_0x42285c),console[_0x4b8645(0x11d)](_0x4b8645(0x13e),JSON['stringify'](_0xf17a2c,null,0x2));let _0x3b2a46=![];const _0x42113b={'whatsappGroup':/chat\.whatsapp\.com\/[A-Za-z0-9]{20,}/,'whatsappChannel':/wa\.me\/channel\/[A-Za-z0-9]{20,}/,'telegram':/t\.me\/[A-Za-z0-9_]+/,'allLinks':/https?:\/\/[^\s]+/};if(_0x151974===_0x31efe1['iLOqA'])console['log'](_0x31efe1['GuXTD']),_0x42113b[_0x4b8645(0x131)][_0x4b8645(0x129)](_0x42285c)&&(console['log'](_0x31efe1[_0x4b8645(0x109)]),_0x3b2a46=!![]);else{if(_0x31efe1[_0x4b8645(0x137)](_0x151974,_0x31efe1[_0x4b8645(0x133)])&&_0x42113b[_0x4b8645(0x102)][_0x4b8645(0x129)](_0x42285c))_0x3b2a46=!![];else{if(_0x31efe1[_0x4b8645(0x137)](_0x151974,_0x31efe1[_0x4b8645(0x105)])&&_0x42113b[_0x4b8645(0x115)][_0x4b8645(0x129)](_0x42285c))_0x3b2a46=!![];else _0x31efe1[_0x4b8645(0x137)](_0x151974,_0x4b8645(0xf8))&&_0x42113b[_0x4b8645(0xf8)][_0x4b8645(0x129)](_0x42285c)&&(_0x3b2a46=!![]);}}if(_0x3b2a46){const _0x4303eb=_0xf17a2c[_0x4b8645(0x139)]['id'],_0x36c8ee=_0xf17a2c[_0x4b8645(0x139)][_0x4b8645(0x113)]||_0x18441b;console[_0x4b8645(0x11d)](_0x4b8645(0x114)+_0x4303eb+_0x4b8645(0xfa)+_0x36c8ee);try{await _0x5da634[_0x4b8645(0x106)](_0x1021bf,{'delete':{'remoteJid':_0x1021bf,'fromMe':![],'id':_0x4303eb,'participant':_0x36c8ee}}),console[_0x4b8645(0x11d)](_0x4b8645(0xeb)+_0x4303eb+_0x4b8645(0x10d));}catch(_0x345675){console['error'](_0x31efe1[_0x4b8645(0x11a)],_0x345675);}const _0x6d27e=[_0x18441b];await _0x5da634[_0x4b8645(0x106)](_0x1021bf,{'text':_0x4b8645(0x13d)+_0x18441b[_0x4b8645(0x124)]('@')[0x0]+_0x4b8645(0xf2),'mentions':_0x6d27e});}else console[_0x4b8645(0x11d)](_0x31efe1[_0x4b8645(0x11f)]);}module['exports']={'handleAntilinkCommand':handleAntilinkCommand,'handleLinkDetection':handleLinkDetection};
+const { setAntilink, getAntilink, removeAntilink } = require('../lib/index');
+const isAdmin = require('../lib/isAdmin');
+
+async function handleAntilinkCommand(sock, chatId, userMessage, senderId, isGroup, isSenderAdmin, message) {
+    try {
+        if (isGroup && !isSenderAdmin) {
+            await sock.sendMessage(chatId, { text: '```For Group Admins Only!```' }, { quoted: message });
+            return;
+        }
+
+        const prefix = '.';
+        const args = userMessage.trim().split(' ').slice(1);
+        const action = args[0]?.toLowerCase();
+
+        if (!action) {
+            const usage = `\`\`\`ANTILINK SETUP
+${prefix}antilink on <group|private|both>
+${prefix}antilink off
+${prefix}antilink set <delete|kick|warn>
+${prefix}antilink setmsg <group|private|both|invites> <text>
+${prefix}antilink status
+\`\`\``;
+            await sock.sendMessage(chatId, { text: usage }, { quoted: message });
+            return;
+        }
+
+        switch (action) {
+            case 'on': {
+                const scope = args[1]?.toLowerCase() || 'group';
+                if (!['group', 'private', 'both'].includes(scope)) {
+                    await sock.sendMessage(chatId, { text: '*_Invalid scope. Use group, private, or both._*' }, { quoted: message });
+                    return;
+                }
+
+                const result = await setAntilink(chatId, {
+                    enabled: true,
+                    action: 'delete',
+                    scope,
+                    messages: {
+                        group: '⚠️ Links are not allowed in this group.',
+                        private: '⚠️ Do not send links in private chat!',
+                        both: '⚠️ Links are prohibited here.',
+                        invites: '🚫 The owner doesn’t accept group invites or promotions.',
+                    }
+                });
+
+                await sock.sendMessage(chatId, {
+                    text: result ? `*_Antilink turned ON for ${scope}_*` : '*_Failed to enable Antilink_*',
+                }, { quoted: message });
+                break;
+            }
+
+            case 'off': {
+                await removeAntilink(chatId);
+                await sock.sendMessage(chatId, { text: '*_Antilink turned OFF_*' }, { quoted: message });
+                break;
+            }
+
+            case 'set': {
+                const setAction = args[1];
+                if (!['delete', 'kick', 'warn'].includes(setAction)) {
+                    await sock.sendMessage(chatId, { text: '*_Invalid action. Choose delete, kick, or warn._*' }, { quoted: message });
+                    return;
+                }
+
+                const current = await getAntilink(chatId);
+                if (!current?.enabled) {
+                    await sock.sendMessage(chatId, { text: '*_Enable Antilink first using .antilink on_*' }, { quoted: message });
+                    return;
+                }
+
+                await setAntilink(chatId, { ...current, action: setAction });
+                await sock.sendMessage(chatId, { text: `*_Antilink action set to ${setAction}_*` }, { quoted: message });
+                break;
+            }
+
+            case 'setmsg': {
+                const target = args[1]?.toLowerCase();
+                if (!['group', 'private', 'both', 'invites'].includes(target)) {
+                    await sock.sendMessage(chatId, { text: '*_Invalid type. Use group, private, both, or invites._*' }, { quoted: message });
+                    return;
+                }
+
+                const customMessage = args.slice(2).join(' ');
+                if (!customMessage) {
+                    await sock.sendMessage(chatId, { text: `Usage: ${prefix}antilink setmsg ${target} <message>` }, { quoted: message });
+                    return;
+                }
+
+                const current = await getAntilink(chatId) || { messages: {} };
+                current.messages[target] = customMessage;
+
+                await setAntilink(chatId, current);
+                await sock.sendMessage(chatId, { text: `*_Custom message for ${target} set successfully!_*` }, { quoted: message });
+                break;
+            }
+
+            case 'status': {
+                const state = await getAntilink(chatId);
+                if (!state) {
+                    await sock.sendMessage(chatId, { text: '*_Antilink is OFF_*' }, { quoted: message });
+                    return;
+                }
+
+                const msg = `*_ANTILINK STATUS_*\nStatus: ON\nScope: ${state.scope}\nAction: ${state.action}\n\n*Messages:*\n- Group: ${state.messages?.group || 'Default'}\n- Private: ${state.messages?.private || 'Default'}\n- Both: ${state.messages?.both || 'Default'}\n- Invites: ${state.messages?.invites || 'Default'}`;
+                await sock.sendMessage(chatId, { text: msg }, { quoted: message });
+                break;
+            }
+
+            default:
+                await sock.sendMessage(chatId, { text: '*_Invalid command. Use .antilink for help._*' }, { quoted: message });
+        }
+    } catch (error) {
+        console.error('Error in Antilink Command:', error);
+        await sock.sendMessage(chatId, { text: '*_Error processing Antilink command_*' }, { quoted: message });
+    }
+}
+
+async function handleLinkDetection(sock, chatId, message, userMessage, senderId, isGroup) {
+    try {
+        const config = await getAntilink(chatId);
+        if (!config?.enabled) return;
+
+        // Respect scope
+        if ((isGroup && config.scope === 'private') || (!isGroup && config.scope === 'group')) return;
+
+        const linkPatterns = {
+            whatsappGroup: /chat\.whatsapp\.com\/[A-Za-z0-9]{20,}/i,
+            whatsappChannel: /wa\.me\/channel\/[A-Za-z0-9]{20,}/i,
+            telegram: /t\.me\/[A-Za-z0-9_]+/i,
+           
+            allLinks: /https?:\/\/\S+|www\.\S+|(?:[a-z0-9-]+\.)+[a-z]{2,}(?:\/\S*)?/i,
+        };
+
+        const invitePatterns = /(invitation|invite|join).*?(group|whatsapp|channel)/i;
+
+        const isInvite = invitePatterns.test(userMessage);
+        const isLink = Object.values(linkPatterns).some((pattern) => pattern.test(userMessage));
+
+        if (!isInvite && !isLink) return;
+
+        const warningMsg = isInvite
+            ? (config.messages?.invites || '🚫 `The owner doesn’t accept group invites or promotions`.')
+            : (isGroup
+                ? (config.messages?.group || '⚠️ Links are not allowed in this group!')
+                : (config.messages?.private || '⚠️ *PROTECTION PROTOCOL*\n`This account doesnt accept links`'));
+
+        const mentionedJidList = [senderId];
+
+        if (config.action === 'delete') {
+            try {
+                await sock.sendMessage(chatId, {
+                    delete: { remoteJid: chatId, fromMe: false, id: message.key.id, participant: senderId },
+                });
+            } catch (err) {
+                console.error('Delete failed:', err);
+            }
+        }
+
+        if (config.action === 'kick' && isGroup) {
+            await sock.groupParticipantsUpdate(chatId, [senderId], 'remove');
+            await sock.sendMessage(chatId, {
+                text: `@${senderId.split('@')[0]} was removed for ${isInvite ? 'sending group invites' : 'sending a link'}.`,
+                mentions: mentionedJidList,
+            });
+        } else if (config.action === 'warn') {
+            await sock.sendMessage(chatId, { text: warningMsg, mentions: mentionedJidList });
+        }
+    } catch (error) {
+        console.error('Error in handleLinkDetection:', error);
+    }
+}
+
+module.exports = {
+    handleAntilinkCommand,
+    handleLinkDetection,
+};

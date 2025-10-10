@@ -1,1 +1,73 @@
-const a6_0x49fc11=a6_0x316e;(function(_0x5342f3,_0x587d17){const _0x5e6edf=a6_0x316e,_0x4692b9=_0x5342f3();while(!![]){try{const _0x111eae=-parseInt(_0x5e6edf(0x1c7))/0x1+-parseInt(_0x5e6edf(0x1d6))/0x2*(-parseInt(_0x5e6edf(0x1ce))/0x3)+parseInt(_0x5e6edf(0x1e2))/0x4+parseInt(_0x5e6edf(0x1e9))/0x5*(parseInt(_0x5e6edf(0x1cc))/0x6)+-parseInt(_0x5e6edf(0x1ea))/0x7*(-parseInt(_0x5e6edf(0x1c8))/0x8)+-parseInt(_0x5e6edf(0x1d1))/0x9*(-parseInt(_0x5e6edf(0x1e4))/0xa)+-parseInt(_0x5e6edf(0x1cf))/0xb*(parseInt(_0x5e6edf(0x1c9))/0xc);if(_0x111eae===_0x587d17)break;else _0x4692b9['push'](_0x4692b9['shift']());}catch(_0x217588){_0x4692b9['push'](_0x4692b9['shift']());}}}(a6_0x20ec,0x411a3));const axios=require(a6_0x49fc11(0x1eb)),fs=require('fs'),path=require('path'),dbPath=path['join'](__dirname,'../db/antiinvite.json');function a6_0x316e(_0x56598a,_0x3e0ed4){const _0x20ec58=a6_0x20ec();return a6_0x316e=function(_0x316e22,_0x3d1be2){_0x316e22=_0x316e22-0x1c7;let _0x481dd0=_0x20ec58[_0x316e22];return _0x481dd0;},a6_0x316e(_0x56598a,_0x3e0ed4);}!fs[a6_0x49fc11(0x1e8)](path[a6_0x49fc11(0x1dd)](dbPath))&&fs[a6_0x49fc11(0x1ef)](path[a6_0x49fc11(0x1dd)](dbPath),{'recursive':!![]});!fs[a6_0x49fc11(0x1e8)](dbPath)&&fs[a6_0x49fc11(0x1d7)](dbPath,JSON[a6_0x49fc11(0x1d2)]({}),a6_0x49fc11(0x1ed));function a6_0x20ec(){const _0x4700e8=['zUhwk','228uhfnoK','✅\x20Anti-Invite\x20has\x20been\x20*enabled*\x20in\x20this\x20group.','21KgtvAq','85723SRZrwr','startsWith','611154kPPajI','stringify','parse','yRkwN','Blocks\x20WhatsApp\x20group\x20invite\x20links\x20and\x20auto-warns\x20users','119446IaZRBe','writeFileSync','❌\x20Anti-Invite\x20has\x20been\x20*disabled*\x20in\x20this\x20group.','⚙️\x20The\x20`.antiinvite`\x20command\x20only\x20works\x20in\x20*groups*.\x20In\x20private\x20chats,\x20Anti-Invite\x20is\x20always\x20active.','.antiinvite','test','wIlOd','dirname','fDfKE',',\x20invite\x20links\x20are\x20not\x20allowed\x20here.','temyo','pgiNB','178984kXFmvI','❌\x20Only\x20*group\x20admins*\x20can\x20toggle\x20Anti-Invite.','40LtdWGU','readFileSync','split','sendMessage','existsSync','5245uIiLtT','12628QigOvb','axios','⚙️\x20Usage:\x20`.antiinvite\x20on`\x20or\x20`.antiinvite\x20off`','utf8','⚠️\x20*Warning!*\x20@','mkdirSync','160491RNUnXA','776WpJYzy','804zSrIms','EjHdx'];a6_0x20ec=function(){return _0x4700e8;};return a6_0x20ec();}function loadDB(){const _0x999be=a6_0x49fc11,_0x1878b4={'temyo':'utf8'};return JSON[_0x999be(0x1d3)](fs[_0x999be(0x1e5)](dbPath,_0x1878b4[_0x999be(0x1e0)]));}function saveDB(_0x577a6d){const _0xa9a569=a6_0x49fc11,_0x31f48b={'fDfKE':_0xa9a569(0x1ed)};fs[_0xa9a569(0x1d7)](dbPath,JSON[_0xa9a569(0x1d2)](_0x577a6d,null,0x2),_0x31f48b[_0xa9a569(0x1de)]);}module['exports']={'name':'antiinvite','description':a6_0x49fc11(0x1d5),'execute':async(_0x262487,_0x20d8f0,_0x30cd43,_0x2a1f7c,_0x10c50e,_0x2b8440)=>{const _0xd535c0=a6_0x49fc11,_0x6ebcbf={'wIlOd':_0xd535c0(0x1d9),'yacOf':_0xd535c0(0x1e3),'EjHdx':function(_0xdbf65d,_0x292e68){return _0xdbf65d===_0x292e68;},'pgiNB':_0xd535c0(0x1cd),'vFmWs':'off','yRkwN':function(_0x34d39f,_0x5b04a8){return _0x34d39f(_0x5b04a8);},'zUhwk':_0xd535c0(0x1ec)},_0x43bbf5=loadDB();if(_0x30cd43[_0xd535c0(0x1d0)](_0xd535c0(0x1da))){if(!_0x10c50e)return await _0x262487[_0xd535c0(0x1e7)](_0x20d8f0,{'text':_0x6ebcbf[_0xd535c0(0x1dc)]});const _0x5e6f2d=_0x30cd43['split']('\x20')[0x1];if(!_0x2b8440)return await _0x262487['sendMessage'](_0x20d8f0,{'text':_0x6ebcbf['yacOf']});if(_0x6ebcbf[_0xd535c0(0x1ca)](_0x5e6f2d,'on'))return _0x43bbf5[_0x20d8f0]=!![],saveDB(_0x43bbf5),await _0x262487[_0xd535c0(0x1e7)](_0x20d8f0,{'text':_0x6ebcbf[_0xd535c0(0x1e1)]});else return _0x6ebcbf['EjHdx'](_0x5e6f2d,_0x6ebcbf['vFmWs'])?(_0x43bbf5[_0x20d8f0]=![],_0x6ebcbf[_0xd535c0(0x1d4)](saveDB,_0x43bbf5),await _0x262487[_0xd535c0(0x1e7)](_0x20d8f0,{'text':_0xd535c0(0x1d8)})):await _0x262487[_0xd535c0(0x1e7)](_0x20d8f0,{'text':_0x6ebcbf[_0xd535c0(0x1cb)]});}const _0x562dd4=/https:\/\/chat\.whatsapp\.com\/[A-Za-z0-9]+/g;_0x562dd4[_0xd535c0(0x1db)](_0x30cd43)&&((!_0x10c50e||_0x43bbf5[_0x20d8f0])&&await _0x262487[_0xd535c0(0x1e7)](_0x20d8f0,{'text':_0xd535c0(0x1ee)+_0x2a1f7c[_0xd535c0(0x1e6)]('@')[0x0]+_0xd535c0(0x1df),'mentions':[_0x2a1f7c]}));}};
+// commands/antiinvite.js
+const axios = require("axios");
+// commands/antiinvite.js
+// commands/antiinvite.js
+const fs = require("fs");
+const path = require("path");
+
+const dbPath = path.join(__dirname, "../db/antiinvite.json");
+
+// Ensure db folder + file exist
+if (!fs.existsSync(path.dirname(dbPath))) {
+  fs.mkdirSync(path.dirname(dbPath), { recursive: true });
+}
+if (!fs.existsSync(dbPath)) {
+  fs.writeFileSync(dbPath, JSON.stringify({}), "utf8");
+}
+
+function loadDB() {
+  return JSON.parse(fs.readFileSync(dbPath, "utf8"));
+}
+
+function saveDB(db) {
+  fs.writeFileSync(dbPath, JSON.stringify(db, null, 2), "utf8");
+}
+
+module.exports = {
+  name: "antiinvite",
+  description: "Blocks WhatsApp group invite links and auto-warns users",
+  execute: async (sock, chatId, userMessage, sender, isGroup, isGroupAdmin) => {
+    const db = loadDB();
+
+    // --- Toggle command (only works in groups) ---
+    if (userMessage.startsWith(".antiinvite")) {
+      if (!isGroup) {
+        return await sock.sendMessage(chatId, {
+          text: "⚙️ The `.antiinvite` command only works in *groups*. In private chats, Anti-Invite is always active.",
+        });
+      }
+
+      const args = userMessage.split(" ")[1];
+      if (!isGroupAdmin) {
+        return await sock.sendMessage(chatId, {
+          text: "❌ Only *group admins* can toggle Anti-Invite.",
+        });
+      }
+
+      if (args === "on") {
+        db[chatId] = true;
+        saveDB(db);
+        return await sock.sendMessage(chatId, { text: "✅ Anti-Invite has been *enabled* in this group." });
+      } else if (args === "off") {
+        db[chatId] = false;
+        saveDB(db);
+        return await sock.sendMessage(chatId, { text: "❌ Anti-Invite has been *disabled* in this group." });
+      } else {
+        return await sock.sendMessage(chatId, { text: "⚙️ Usage: `.antiinvite on` or `.antiinvite off`" });
+      }
+    }
+
+    // --- Detect invite links ---
+    const inviteRegex = /https:\/\/chat\.whatsapp\.com\/[A-Za-z0-9]+/g;
+
+    // Always block in DMs, or if group has anti-invite enabled
+    if (inviteRegex.test(userMessage)) {
+      if (!isGroup || db[chatId]) {
+        await sock.sendMessage(chatId, {
+          text: `⚠️ *Warning!* @${sender.split("@")[0]}, invite links are not allowed here.`,
+          mentions: [sender],
+        });
+      }
+    }
+  },
+};

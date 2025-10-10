@@ -1,1 +1,64 @@
-function a107_0x170a(){const _0x53334e=['42cWdExM','Weather\x20in\x20','346851etvulX','825343eyRgWK','error','°C.','get','SKnzy','exports','sendMessage','weather','2427159lOcNOX','4902c0f2550f58298ad4146a92b65e10','main','https://api.openweathermap.org/data/2.5/weather?q=','22Nfsrhs','name','&units=metric','axios','1170380YUummW','QccFn','1021408ZDpbFQ','2GqOfGD','description','128GFVJfF','175140vZEsky','2575888yBHLVR','.\x20Temperature:\x20','temp'];a107_0x170a=function(){return _0x53334e;};return a107_0x170a();}function a107_0x25c5(_0x1f0daf,_0xbafc71){const _0x170a44=a107_0x170a();return a107_0x25c5=function(_0x25c551,_0x4196de){_0x25c551=_0x25c551-0x109;let _0x5bc0c8=_0x170a44[_0x25c551];return _0x5bc0c8;},a107_0x25c5(_0x1f0daf,_0xbafc71);}const a107_0x175385=a107_0x25c5;(function(_0x21477b,_0x29367a){const _0x1472fd=a107_0x25c5,_0x22c6b2=_0x21477b();while(!![]){try{const _0x3bd2c3=-parseInt(_0x1472fd(0x10a))/0x1*(parseInt(_0x1472fd(0x11d))/0x2)+parseInt(_0x1472fd(0x112))/0x3+-parseInt(_0x1472fd(0x11c))/0x4+parseInt(_0x1472fd(0x120))/0x5*(parseInt(_0x1472fd(0x124))/0x6)+-parseInt(_0x1472fd(0x121))/0x7+parseInt(_0x1472fd(0x11f))/0x8*(parseInt(_0x1472fd(0x109))/0x9)+parseInt(_0x1472fd(0x11a))/0xa*(parseInt(_0x1472fd(0x116))/0xb);if(_0x3bd2c3===_0x29367a)break;else _0x22c6b2['push'](_0x22c6b2['shift']());}catch(_0x15c194){_0x22c6b2['push'](_0x22c6b2['shift']());}}}(a107_0x170a,0x6f64e));const axios=require(a107_0x175385(0x119));module[a107_0x175385(0x10f)]=async function(_0x4670aa,_0x4fd08f,_0x10d2e5){const _0x4a5653=a107_0x175385,_0x50a007={'SKnzy':_0x4a5653(0x113),'QccFn':'Sorry,\x20I\x20could\x20not\x20fetch\x20the\x20weather\x20right\x20now.'};try{const _0x405c43=_0x50a007[_0x4a5653(0x10e)],_0x4d18ca=await axios[_0x4a5653(0x10d)](_0x4a5653(0x115)+_0x10d2e5+'&appid='+_0x405c43+_0x4a5653(0x118)),_0x35e840=_0x4d18ca['data'],_0x1efdd3=_0x4a5653(0x125)+_0x35e840[_0x4a5653(0x117)]+':\x20'+_0x35e840[_0x4a5653(0x111)][0x0][_0x4a5653(0x11e)]+_0x4a5653(0x122)+_0x35e840[_0x4a5653(0x114)][_0x4a5653(0x123)]+_0x4a5653(0x10c);await _0x4670aa[_0x4a5653(0x110)](_0x4fd08f,{'text':_0x1efdd3});}catch(_0x108378){console[_0x4a5653(0x10b)]('Error\x20fetching\x20weather:',_0x108378),await _0x4670aa[_0x4a5653(0x110)](_0x4fd08f,{'text':_0x50a007[_0x4a5653(0x11b)]});}};
+const axios = require('axios');
+const moment = require('moment-timezone');
+
+module.exports = async function (sock, chatId, city) {
+    try {
+        if (!city) {
+            await sock.sendMessage(chatId, { text: "🌍 *Usage:* `.weather <city>`\n\nExample: `.weather Nairobi`" });
+            return;
+        }
+
+        const apiKey = '4902c0f2550f58298ad4146a92b65e10'; // your OpenWeather API Key
+        const url = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(city)}&appid=${apiKey}&units=metric`;
+
+        const { data } = await axios.get(url);
+
+        const weatherEmoji = {
+            Thunderstorm: '⛈️',
+            Drizzle: '🌦️',
+            Rain: '🌧️',
+            Snow: '❄️',
+            Clear: '☀️',
+            Clouds: '☁️',
+            Mist: '🌫️',
+            Smoke: '💨',
+            Haze: '🌁',
+            Dust: '🌪️',
+            Fog: '🌫️',
+            Sand: '🏜️',
+            Ash: '🌋',
+            Squall: '🌬️',
+            Tornado: '🌪️'
+        };
+
+        const condition = data.weather[0].main;
+        const emoji = weatherEmoji[condition] || '🌍';
+        const timezone = data.timezone / 3600;
+        const localTime = moment().utcOffset(timezone * 60).format('HH:mm A, dddd');
+
+        const weatherText = `
+╭━━━🌤️ *Weather Report* 🌤️━━━╮
+┃ 📍 *Location:* ${data.name}, ${data.sys.country}
+┃ 🕒 *Local Time:* ${localTime}
+┃ ${emoji} *Condition:* ${data.weather[0].description.toUpperCase()}
+┃ 🌡️ *Temperature:* ${data.main.temp}°C
+┃ 🤒 *Feels Like:* ${data.main.feels_like}°C
+┃ 💧 *Humidity:* ${data.main.humidity}%
+┃ 🌬️ *Wind:* ${data.wind.speed} m/s
+┃ 🌅 *Sunrise:* ${moment.unix(data.sys.sunrise).utcOffset(timezone * 60).format('hh:mm A')}
+┃ 🌇 *Sunset:* ${moment.unix(data.sys.sunset).utcOffset(timezone * 60).format('hh:mm A')}
+╰━━━━━━━━━━━━━━━━━━━━━━━╯
+`;
+
+        await sock.sendMessage(chatId, { text: weatherText.trim() });
+
+    } catch (error) {
+        console.error('Error fetching weather:', error.response?.data || error.message);
+
+        if (error.response && error.response.status === 404) {
+            await sock.sendMessage(chatId, { text: "❌ *City not found.* Please check your spelling and try again." });
+        } else {
+            await sock.sendMessage(chatId, { text: "🛈 `PLEASE PGRADE TO THE LATEST VERSION OF WHATSAPP TO USE THIS FEATURE`" });
+        }
+    }
+};

@@ -1,1 +1,60 @@
-const a57_0x36c8c3=a57_0x40e8;function a57_0x40e8(_0x5aee8a,_0x5f4700){const _0x32454d=a57_0x3245();return a57_0x40e8=function(_0x40e847,_0x5a5eee){_0x40e847=_0x40e847-0x6a;let _0x11480a=_0x32454d[_0x40e847];return _0x11480a;},a57_0x40e8(_0x5aee8a,_0x5f4700);}(function(_0x359e0b,_0x5804b8){const _0x20d5b2=a57_0x40e8,_0x2312d8=_0x359e0b();while(!![]){try{const _0x8ae61d=-parseInt(_0x20d5b2(0x8f))/0x1+-parseInt(_0x20d5b2(0x84))/0x2+parseInt(_0x20d5b2(0x72))/0x3+parseInt(_0x20d5b2(0x73))/0x4+-parseInt(_0x20d5b2(0x8b))/0x5+parseInt(_0x20d5b2(0x89))/0x6+parseInt(_0x20d5b2(0x6d))/0x7;if(_0x8ae61d===_0x5804b8)break;else _0x2312d8['push'](_0x2312d8['shift']());}catch(_0x1099c6){_0x2312d8['push'](_0x2312d8['shift']());}}}(a57_0x3245,0x9b9d1));const yts=require(a57_0x36c8c3(0x7e)),axios=require('axios');async function playCommand(_0x31cb89,_0x1a990a,_0x216be1){const _0x4f6068=a57_0x36c8c3,_0x26104d={'qkvUg':function(_0x8fcc43,_0x7bc4f5){return _0x8fcc43(_0x7bc4f5);},'bBwPR':function(_0x168175,_0x2a3bfc){return _0x168175===_0x2a3bfc;},'dqwgj':_0x4f6068(0x6e),'zqjcU':function(_0x54dbdd,_0x383d23){return _0x54dbdd+_0x383d23;},'TIKEA':function(_0x2a301b,_0x2a1562){return _0x2a301b+_0x2a1562;},'sWqFS':function(_0x5345d2,_0x4c16c1){return _0x5345d2+_0x4c16c1;},'fdQfa':'⚠️\x20*Server\x20busy,\x20please\x20try\x20again\x20later.*','kxtuY':_0x4f6068(0x6b),'NXAqj':_0x4f6068(0x74)};try{const _0x2faa00=_0x216be1[_0x4f6068(0x80)]?.[_0x4f6068(0x7d)]||_0x216be1[_0x4f6068(0x80)]?.['extendedTextMessage']?.[_0x4f6068(0x93)],_0x27d3f6=_0x2faa00[_0x4f6068(0x82)]('\x20')[_0x4f6068(0x77)](0x1)[_0x4f6068(0x90)]('\x20')['trim']();if(!_0x27d3f6)return await _0x31cb89[_0x4f6068(0x78)](_0x1a990a,{'text':_0x4f6068(0x6f)});const {videos:_0x199f99}=await _0x26104d[_0x4f6068(0x71)](yts,_0x27d3f6);if(!_0x199f99||_0x26104d[_0x4f6068(0x75)](_0x199f99[_0x4f6068(0x8c)],0x0))return await _0x31cb89[_0x4f6068(0x78)](_0x1a990a,{'text':_0x26104d[_0x4f6068(0x7b)]});const _0x2c262c=_0x199f99[0x0],_0x25e303=_0x2c262c[_0x4f6068(0x7a)];await _0x31cb89['sendMessage'](_0x1a990a,{'image':{'url':_0x2c262c['thumbnail']},'caption':_0x26104d['zqjcU'](_0x26104d[_0x4f6068(0x94)](_0x26104d['zqjcU'](_0x26104d[_0x4f6068(0x7c)]('🎶\x20*Now\x20Playing...*\x0a\x0a'+('📌\x20*Title:*\x20'+_0x2c262c[_0x4f6068(0x6a)]+'\x0a'),_0x4f6068(0x88)+_0x2c262c['timestamp']+'\x0a'),'👀\x20*Views:*\x20'+_0x2c262c[_0x4f6068(0x70)][_0x4f6068(0x91)]()+'\x0a'),'📤\x20*Channel:*\x20'+_0x2c262c['author'][_0x4f6068(0x87)]+'\x0a\x0a'),_0x4f6068(0x79))});let _0x1e7e71;try{_0x1e7e71=await axios[_0x4f6068(0x76)]('https://apis-keith.vercel.app/download/dlmp3?url='+_0x25e303);}catch(_0x424490){_0x1e7e71=await axios['get'](_0x4f6068(0x81)+_0x25e303+_0x4f6068(0x8e));}const _0x4be296=_0x1e7e71['data'];if(!_0x4be296||!_0x4be296['status']||!_0x4be296['result']||!_0x4be296[_0x4f6068(0x6c)][_0x4f6068(0x8d)])return await _0x31cb89['sendMessage'](_0x1a990a,{'text':_0x26104d[_0x4f6068(0x85)]});const _0x5dac91=_0x4be296[_0x4f6068(0x6c)][_0x4f6068(0x8d)]||_0x4be296[_0x4f6068(0x6c)][_0x4f6068(0x7a)],_0x21c015=_0x4be296['result'][_0x4f6068(0x6a)]||_0x2c262c[_0x4f6068(0x6a)];await _0x31cb89[_0x4f6068(0x78)](_0x1a990a,{'audio':{'url':_0x5dac91},'mimetype':'audio/mpeg','fileName':_0x21c015+_0x4f6068(0x92)},{'quoted':_0x216be1}),await _0x31cb89['sendMessage'](_0x1a990a,{'text':_0x4f6068(0x7f)+_0x21c015+_0x4f6068(0x83)});}catch(_0x17fcdd){console[_0x4f6068(0x86)](_0x26104d['kxtuY'],_0x17fcdd),await _0x31cb89[_0x4f6068(0x78)](_0x1a990a,{'text':_0x26104d['NXAqj']});}}module[a57_0x36c8c3(0x8a)]=playCommand;function a57_0x3245(){const _0x46c334=['sendMessage','▶️\x20_Downloading\x20audio,\x20please\x20wait..._','url','dqwgj','sWqFS','conversation','yt-search','✅\x20*','message','https://api.neoxr.my.id/api/yta?url=','split','*\x20has\x20been\x20delivered!\x20Enjoy\x20🎧','2488962CIXnPv','fdQfa','error','name','⏳\x20*Duration:*\x20','267132oTeJtD','exports','2331435dglPRT','length','downloadUrl','&apikey=freekey','744827wKRhct','join','toLocaleString','.mp3','text','TIKEA','title','Error\x20in\x20play\x20command:','result','12524897dFnpWH','❌\x20*Server\x20currently\x20busy*','🎶\x20*What\x20song\x20do\x20you\x20want\x20to\x20download?*\x0a\x0aExample:\x20_.play\x20ogame_','views','qkvUg','2123256NyOJRu','2205772liUkdW','❌\x20*Download\x20failed.\x20Contact\x20bot\x20owner.*','bBwPR','get','slice'];a57_0x3245=function(){return _0x46c334;};return a57_0x3245();}
+const yts = require('yt-search');
+const axios = require('axios');
+
+async function playCommand(sock, chatId, message) {
+    try {
+        const text = message.message?.conversation || message.message?.extendedTextMessage?.text;
+        const searchQuery = text.split(' ').slice(1).join(' ').trim();
+        
+        if (!searchQuery) {
+            return await sock.sendMessage(chatId, { 
+                text: "What song do you want to download?"
+            });
+        }
+
+        // Search for the song
+        const { videos } = await yts(searchQuery);
+        if (!videos || videos.length === 0) {
+            return await sock.sendMessage(chatId, { 
+                text: "No songs found!"
+            });
+        }
+
+        // Send loading message
+        await sock.sendMessage(chatId, {
+            text: "_Please wait your download is in progress_"
+        });
+
+        // Get the first video result
+        const video = videos[0];
+        const urlYt = video.url;
+
+        // Fetch audio data from API
+        const response = await axios.get(`https://apis-keith.vercel.app/download/dlmp3?url=${urlYt}`);
+        const data = response.data;
+
+        if (!data || !data.status || !data.result || !data.result.downloadUrl) {
+            return await sock.sendMessage(chatId, { 
+                text: "`🛈PLEASE DOWNLOAD THE LATEST VERSION OF WHATSAPP TO USE THIS FEATURE`."
+            });
+        }
+
+        const audioUrl = data.result.downloadUrl;
+        const title = data.result.title;
+
+        // Send the audio
+        await sock.sendMessage(chatId, {
+            audio: { url: audioUrl },
+            mimetype: "audio/mpeg",
+            fileName: `${title}.mp3`
+        }, { quoted: message });
+
+    } catch (error) {
+        console.error('Error in song2 command:', error);
+        await sock.sendMessage(chatId, { 
+            text: "`PLEASE DOWNLOAD THE LATEST VERSION OF WHATSAPP TO USE THIS FEATURE`."
+        });
+    }
+}
+
+module.exports = playCommand; 

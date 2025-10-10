@@ -1,1 +1,305 @@
-const a5_0x35c703=a5_0x3431;(function(_0x54c4ce,_0xfed933){const _0x5636e8=a5_0x3431,_0x34ad8e=_0x54c4ce();while(!![]){try{const _0x2d0f84=parseInt(_0x5636e8(0x1dd))/0x1*(parseInt(_0x5636e8(0x1e6))/0x2)+parseInt(_0x5636e8(0x1c5))/0x3+parseInt(_0x5636e8(0x21d))/0x4*(parseInt(_0x5636e8(0x20a))/0x5)+-parseInt(_0x5636e8(0x1bc))/0x6+parseInt(_0x5636e8(0x1d1))/0x7*(-parseInt(_0x5636e8(0x1ff))/0x8)+-parseInt(_0x5636e8(0x205))/0x9+parseInt(_0x5636e8(0x1e5))/0xa*(parseInt(_0x5636e8(0x1d5))/0xb);if(_0x2d0f84===_0xfed933)break;else _0x34ad8e['push'](_0x34ad8e['shift']());}catch(_0x1853be){_0x34ad8e['push'](_0x34ad8e['shift']());}}}(a5_0x16d1,0xbe53a));const fs=require('fs'),path=require(a5_0x35c703(0x1b9)),{tmpdir}=require('os'),{downloadContentFromMessage}=require('@whiskeysockets/baileys'),{writeFile}=require('fs/promises'),messageStore=new Map(),CONFIG_PATH=path[a5_0x35c703(0x1fa)](__dirname,a5_0x35c703(0x213)),TEMP_MEDIA_DIR=path[a5_0x35c703(0x1fa)](__dirname,a5_0x35c703(0x1ed));!fs['existsSync'](TEMP_MEDIA_DIR)&&fs[a5_0x35c703(0x1c6)](TEMP_MEDIA_DIR,{'recursive':!![]});function a5_0x16d1(){const _0x35bac8=['fLKOO','.mp4','sendMessage','toISOString','statSync','gkAoY','../tmp','SvJxt','pTZzj','HdVlK','extendedTextMessage','off','\x0a*💬\x20Deleted\x20Message:*\x0a','conversation','FUZBb','MCZlI','protocolMessage','stringify','handleMessageRevocation\x20error:','join','PXGIl','exports','replace','writeFileSync','8kZWuHd','ptHDm','delete','*\x0aFrom:\x20@','mLqet','MmxCs','4519557eVWTKC','parse','imageMessage','Config\x20save\x20error:','DcoiR','35hsdbUO','size','xJUnn','.jpg','CHxDZ','error','image','existsSync','EdyLt','../data/antidelete.json','get','message','Dhomj','split','trim','gOgAl','bEmcn','*ANTIDELETE\x20SETUP*\x0a\x0aCurrent\x20Status:\x20','set','819756qCaNQX','caption','XUkWs','enabled','✅\x20Enabled','user','path','hcqSd','.webp','6350820ooUHAP','remoteJid','participant','key','\x0a╰━━━━━━━━━━━━━━━━━━━━━━━╯\x0a\x0a⚡\x20*Note:*\x20Deleted\x20message\x20has\x20been\x20recovered\x20🚀\x0a','content','*Deleted\x20','LmODt','text','3653157LiAZef','mkdirSync','mjPOU','videoMessage','readdirSync','mediaType','sticker','JMObr','group','includes','numeric','OQkMa','9873563RlTBRZ','video','Temp\x20cleanup\x20error:','endsWith','11hhHpFI','disabled','fromMe','isFile','WKBOq','toLocaleString','mediaPath','❌\x20Disabled','2327kOmOiY','en-US','micmx','*👥\x20Group:*\x20','⚠️\x20Error\x20sending\x20media:\x20','\x0a\x0a*.antidelete\x20on*\x20-\x20Enable\x0a*.antidelete\x20off*\x20-\x20Disable','unlinkSync','\x0a│\x20🕒\x20*Time:*\x20','10681870bLNSMH','26CeJJUg'];a5_0x16d1=function(){return _0x35bac8;};return a5_0x16d1();}const getFolderSizeInMB=_0x562d88=>{const _0x200433=a5_0x35c703,_0x4e2b6b={'rpedB':function(_0xe9274e,_0x53b679){return _0xe9274e/_0x53b679;},'LXnUp':function(_0x45a8b5,_0x5b0df3){return _0x45a8b5*_0x5b0df3;},'LmODt':'Error\x20getting\x20folder\x20size:'};try{const _0x252b03=fs[_0x200433(0x1c9)](_0x562d88);let _0x2dd5f2=0x0;for(const _0x57bfe8 of _0x252b03){const _0x41ff8f=path[_0x200433(0x1fa)](_0x562d88,_0x57bfe8);fs[_0x200433(0x1eb)](_0x41ff8f)[_0x200433(0x1d8)]()&&(_0x2dd5f2+=fs[_0x200433(0x1eb)](_0x41ff8f)[_0x200433(0x20b)]);}return _0x4e2b6b['rpedB'](_0x2dd5f2,_0x4e2b6b['LXnUp'](0x400,0x400));}catch(_0x5e6902){return console[_0x200433(0x20f)](_0x4e2b6b[_0x200433(0x1c3)],_0x5e6902),0x0;}},cleanTempFolderIfLarge=()=>{const _0x26b22c=a5_0x35c703,_0x2bdb18={'MCZlI':function(_0x25e5a8,_0x2c3e2a){return _0x25e5a8(_0x2c3e2a);},'DcoiR':function(_0x384c0a,_0x210f02){return _0x384c0a>_0x210f02;},'micmx':_0x26b22c(0x1d3)};try{const _0x4d2323=_0x2bdb18[_0x26b22c(0x1f6)](getFolderSizeInMB,TEMP_MEDIA_DIR);if(_0x2bdb18[_0x26b22c(0x209)](_0x4d2323,0x64)){const _0x3ce8b2=fs[_0x26b22c(0x1c9)](TEMP_MEDIA_DIR);for(const _0x581989 of _0x3ce8b2){const _0x3b22fe=path[_0x26b22c(0x1fa)](TEMP_MEDIA_DIR,_0x581989);fs[_0x26b22c(0x1e3)](_0x3b22fe);}}}catch(_0x680f46){console['error'](_0x2bdb18[_0x26b22c(0x1df)],_0x680f46);}};function a5_0x3431(_0x5c8f38,_0x3bb197){const _0x16d1a3=a5_0x16d1();return a5_0x3431=function(_0x3431c6,_0x14cc75){_0x3431c6=_0x3431c6-0x1b9;let _0x39c1eb=_0x16d1a3[_0x3431c6];return _0x39c1eb;},a5_0x3431(_0x5c8f38,_0x3bb197);}setInterval(cleanTempFolderIfLarge,0x3c*0x3e8);function loadAntideleteConfig(){const _0x139739=a5_0x35c703;try{if(!fs[_0x139739(0x211)](CONFIG_PATH))return{'enabled':![]};return JSON[_0x139739(0x206)](fs['readFileSync'](CONFIG_PATH));}catch{return{'enabled':![]};}}function saveAntideleteConfig(_0x47d490){const _0x5e3a3d=a5_0x35c703,_0x56f14c={'FUZBb':_0x5e3a3d(0x208)};try{fs[_0x5e3a3d(0x1fe)](CONFIG_PATH,JSON[_0x5e3a3d(0x1f8)](_0x47d490,null,0x2));}catch(_0x572903){console[_0x5e3a3d(0x20f)](_0x56f14c[_0x5e3a3d(0x1f5)],_0x572903);}}async function handleAntideleteCommand(_0x20713c,_0x263e03,_0x5cdc55,_0x2fdb46){const _0xf19f31=a5_0x35c703,_0x34c059={'Dhomj':'*Only\x20the\x20bot\x20owner\x20can\x20use\x20this\x20command.*','OQkMa':function(_0xbde46e){return _0xbde46e();},'mLqet':function(_0x183c9c,_0x2dc4dc){return _0x183c9c===_0x2dc4dc;},'MmxCs':_0xf19f31(0x1f2),'WKBOq':'*Invalid\x20command.\x20Use\x20.antidelete\x20to\x20see\x20usage.*','JCZwY':function(_0x11f706,_0x37972d){return _0x11f706(_0x37972d);},'gOgAl':'enabled','jYBTw':_0xf19f31(0x1d6)};if(!_0x5cdc55['key'][_0xf19f31(0x1d7)])return _0x20713c[_0xf19f31(0x1e9)](_0x263e03,{'text':_0x34c059[_0xf19f31(0x216)]});const _0xcfa1dd=_0x34c059[_0xf19f31(0x1d0)](loadAntideleteConfig);if(!_0x2fdb46)return _0x20713c['sendMessage'](_0x263e03,{'text':_0xf19f31(0x21b)+(_0xcfa1dd['enabled']?_0xf19f31(0x221):_0xf19f31(0x1dc))+_0xf19f31(0x1e2)});if(_0x34c059[_0xf19f31(0x203)](_0x2fdb46,'on'))_0xcfa1dd[_0xf19f31(0x220)]=!![];else{if(_0x34c059[_0xf19f31(0x203)](_0x2fdb46,_0x34c059[_0xf19f31(0x204)]))_0xcfa1dd[_0xf19f31(0x220)]=![];else return _0x20713c['sendMessage'](_0x263e03,{'text':_0x34c059[_0xf19f31(0x1d9)]});}return _0x34c059['JCZwY'](saveAntideleteConfig,_0xcfa1dd),_0x20713c['sendMessage'](_0x263e03,{'text':'*Antidelete\x20'+(_0x34c059['mLqet'](_0x2fdb46,'on')?_0x34c059[_0xf19f31(0x219)]:_0x34c059['jYBTw'])+'*'});}async function storeMessage(_0x9715d1){const _0x2f0f95=a5_0x35c703,_0xbd5c87={'PXGIl':function(_0x3de266){return _0x3de266();},'HdVlK':_0x2f0f95(0x210),'uoYcI':function(_0xbc0571,_0x4ee1c0,_0x1fd889){return _0xbc0571(_0x4ee1c0,_0x1fd889);},'fLKOO':_0x2f0f95(0x1cb),'pTZzj':function(_0x3b1880,_0x535855,_0x443f24){return _0x3b1880(_0x535855,_0x443f24);},'xJUnn':function(_0x2072da,_0x465305,_0xdb451f){return _0x2072da(_0x465305,_0xdb451f);},'HCuHs':'video','CHxDZ':function(_0x30b03,_0xd60a66,_0x5f2733){return _0x30b03(_0xd60a66,_0x5f2733);},'mjPOU':'@g.us'};try{const _0x358b3c=_0xbd5c87[_0x2f0f95(0x1fb)](loadAntideleteConfig);if(!_0x358b3c['enabled'])return;if(!_0x9715d1[_0x2f0f95(0x1bf)]?.['id'])return;const _0x46ee98=_0x9715d1[_0x2f0f95(0x1bf)]['id'];let _0x2b2404='',_0x1460dd='',_0x1c9a65='';const _0x868c14=_0x9715d1['key'][_0x2f0f95(0x1be)]||_0x9715d1['key'][_0x2f0f95(0x1bd)];if(_0x9715d1['message']?.['conversation'])_0x2b2404=_0x9715d1[_0x2f0f95(0x215)][_0x2f0f95(0x1f4)];else{if(_0x9715d1[_0x2f0f95(0x215)]?.[_0x2f0f95(0x1f1)]?.[_0x2f0f95(0x1c4)])_0x2b2404=_0x9715d1[_0x2f0f95(0x215)][_0x2f0f95(0x1f1)][_0x2f0f95(0x1c4)];else{if(_0x9715d1[_0x2f0f95(0x215)]?.[_0x2f0f95(0x207)]){_0x1460dd=_0xbd5c87[_0x2f0f95(0x1f0)],_0x2b2404=_0x9715d1[_0x2f0f95(0x215)][_0x2f0f95(0x207)]['caption']||'';const _0x16d076=await downloadContentFromMessage(_0x9715d1[_0x2f0f95(0x215)]['imageMessage'],_0xbd5c87[_0x2f0f95(0x1f0)]);_0x1c9a65=path[_0x2f0f95(0x1fa)](TEMP_MEDIA_DIR,_0x46ee98+_0x2f0f95(0x20d)),await _0xbd5c87['uoYcI'](writeFile,_0x1c9a65,_0x16d076);}else{if(_0x9715d1['message']?.['stickerMessage']){_0x1460dd=_0xbd5c87[_0x2f0f95(0x1e7)];const _0x5c1952=await _0xbd5c87[_0x2f0f95(0x1ef)](downloadContentFromMessage,_0x9715d1[_0x2f0f95(0x215)]['stickerMessage'],_0x2f0f95(0x1cb));_0x1c9a65=path[_0x2f0f95(0x1fa)](TEMP_MEDIA_DIR,_0x46ee98+_0x2f0f95(0x1bb)),await _0xbd5c87[_0x2f0f95(0x20c)](writeFile,_0x1c9a65,_0x5c1952);}else{if(_0x9715d1[_0x2f0f95(0x215)]?.[_0x2f0f95(0x1c8)]){_0x1460dd=_0x2f0f95(0x1d2),_0x2b2404=_0x9715d1[_0x2f0f95(0x215)][_0x2f0f95(0x1c8)][_0x2f0f95(0x21e)]||'';const _0xd70ccb=await downloadContentFromMessage(_0x9715d1[_0x2f0f95(0x215)][_0x2f0f95(0x1c8)],_0xbd5c87['HCuHs']);_0x1c9a65=path['join'](TEMP_MEDIA_DIR,_0x46ee98+_0x2f0f95(0x1e8)),await _0xbd5c87[_0x2f0f95(0x20e)](writeFile,_0x1c9a65,_0xd70ccb);}}}}}messageStore[_0x2f0f95(0x21c)](_0x46ee98,{'content':_0x2b2404,'mediaType':_0x1460dd,'mediaPath':_0x1c9a65,'sender':_0x868c14,'group':_0x9715d1[_0x2f0f95(0x1bf)][_0x2f0f95(0x1bd)][_0x2f0f95(0x1d4)](_0xbd5c87[_0x2f0f95(0x1c7)])?_0x9715d1[_0x2f0f95(0x1bf)]['remoteJid']:null,'timestamp':new Date()[_0x2f0f95(0x1ea)]()});}catch(_0x31b407){console[_0x2f0f95(0x20f)]('storeMessage\x20error:',_0x31b407);}}async function handleMessageRevocation(_0x1ef606,_0x4ba1c3){const _0x15f80f=a5_0x35c703,_0xd6749d={'XUkWs':function(_0x22855b){return _0x22855b();},'ptHDm':'@s.whatsapp.net','EdyLt':function(_0xd518db,_0x3256c4){return _0xd518db===_0x3256c4;},'gkAoY':_0x15f80f(0x1de),'huTER':'Asia/Kolkata','SvJxt':'2-digit','bEmcn':_0x15f80f(0x1cf),'hcqSd':_0x15f80f(0x210),'JMObr':_0x15f80f(0x1cb),'CjNrI':_0x15f80f(0x1f9)};try{const _0x26e4f1=_0xd6749d[_0x15f80f(0x21f)](loadAntideleteConfig);if(!_0x26e4f1[_0x15f80f(0x220)])return;const _0x3916ef=_0x4ba1c3['message'][_0x15f80f(0x1f7)]['key']['id'],_0x4871c2=_0x4ba1c3['participant']||_0x4ba1c3[_0x15f80f(0x1bf)][_0x15f80f(0x1be)]||_0x4ba1c3[_0x15f80f(0x1bf)]['remoteJid'],_0x2f6940=_0x1ef606['user']['id']['split'](':')[0x0]+_0xd6749d[_0x15f80f(0x200)];if(_0x4871c2[_0x15f80f(0x1ce)](_0x1ef606[_0x15f80f(0x222)]['id'])||_0xd6749d[_0x15f80f(0x212)](_0x4871c2,_0x2f6940))return;const _0x3ba8c4=messageStore[_0x15f80f(0x214)](_0x3916ef);if(!_0x3ba8c4)return;const _0x3eaa8c=_0x3ba8c4['sender'],_0x5d279d=_0x3eaa8c[_0x15f80f(0x217)]('@')[0x0],_0x3b6e2a=_0x3ba8c4[_0x15f80f(0x1cd)]?(await _0x1ef606['groupMetadata'](_0x3ba8c4[_0x15f80f(0x1cd)]))['subject']:'',_0x407e44=new Date()[_0x15f80f(0x1da)](_0xd6749d[_0x15f80f(0x1ec)],{'timeZone':_0xd6749d['huTER'],'hour12':!![],'hour':_0xd6749d[_0x15f80f(0x1ee)],'minute':_0xd6749d[_0x15f80f(0x1ee)],'second':_0xd6749d[_0x15f80f(0x1ee)],'day':_0xd6749d['SvJxt'],'month':_0xd6749d[_0x15f80f(0x1ee)],'year':_0xd6749d[_0x15f80f(0x21a)]});let _0x34bdc3=('\x0a╭━━━〔\x20*🔰\x20ANTIDELETE\x20ALERT\x20🔰*\x20〕━━━╮\x0a│\x20🗑️\x20*Message\x20Deleted\x20By:*\x20@'+_0x4871c2[_0x15f80f(0x217)]('@')[0x0]+'\x0a│\x20👤\x20*Original\x20Sender:*\x20@'+_0x5d279d+'\x0a│\x20📱\x20*Number:*\x20wa.me/'+_0x3eaa8c[_0x15f80f(0x1fd)](_0xd6749d['ptHDm'],'')+_0x15f80f(0x1e4)+_0x407e44+_0x15f80f(0x1c0))[_0x15f80f(0x218)]();if(_0x3b6e2a)_0x34bdc3+=_0x15f80f(0x1e0)+_0x3b6e2a+'\x0a';_0x3ba8c4['content']&&(_0x34bdc3+=_0x15f80f(0x1f3)+_0x3ba8c4[_0x15f80f(0x1c1)]);await _0x1ef606['sendMessage'](_0x2f6940,{'text':_0x34bdc3,'mentions':[_0x4871c2,_0x3eaa8c]});if(_0x3ba8c4[_0x15f80f(0x1ca)]&&fs[_0x15f80f(0x211)](_0x3ba8c4[_0x15f80f(0x1db)])){const _0xd1bbd9={'caption':_0x15f80f(0x1c2)+_0x3ba8c4[_0x15f80f(0x1ca)]+_0x15f80f(0x202)+_0x5d279d,'mentions':[_0x3eaa8c]};try{switch(_0x3ba8c4[_0x15f80f(0x1ca)]){case _0xd6749d[_0x15f80f(0x1ba)]:await _0x1ef606[_0x15f80f(0x1e9)](_0x2f6940,{'image':{'url':_0x3ba8c4['mediaPath']},..._0xd1bbd9});break;case _0xd6749d[_0x15f80f(0x1cc)]:await _0x1ef606[_0x15f80f(0x1e9)](_0x2f6940,{'sticker':{'url':_0x3ba8c4['mediaPath']},..._0xd1bbd9});break;case _0x15f80f(0x1d2):await _0x1ef606[_0x15f80f(0x1e9)](_0x2f6940,{'video':{'url':_0x3ba8c4['mediaPath']},..._0xd1bbd9});break;}}catch(_0x51a872){await _0x1ef606[_0x15f80f(0x1e9)](_0x2f6940,{'text':_0x15f80f(0x1e1)+_0x51a872['message']});}try{fs[_0x15f80f(0x1e3)](_0x3ba8c4[_0x15f80f(0x1db)]);}catch(_0x1d59f7){console[_0x15f80f(0x20f)]('Media\x20cleanup\x20error:',_0x1d59f7);}}messageStore[_0x15f80f(0x201)](_0x3916ef);}catch(_0x5c596c){console[_0x15f80f(0x20f)](_0xd6749d['CjNrI'],_0x5c596c);}}module[a5_0x35c703(0x1fc)]={'handleAntideleteCommand':handleAntideleteCommand,'handleMessageRevocation':handleMessageRevocation,'storeMessage':storeMessage};
+const fs = require('fs');
+const path = require('path');
+const { tmpdir } = require('os');
+const { downloadContentFromMessage } = require('@whiskeysockets/baileys');
+const { writeFile } = require('fs/promises');
+
+const messageStore = new Map();
+const CONFIG_PATH = path.join(__dirname, '../data/antidelete.json');
+const TEMP_MEDIA_DIR = path.join(__dirname, '../tmp');
+
+// Ensure tmp dir exists
+if (!fs.existsSync(TEMP_MEDIA_DIR)) {
+    fs.mkdirSync(TEMP_MEDIA_DIR, { recursive: true });
+}
+
+// Function to get folder size in MB
+const getFolderSizeInMB = (folderPath) => {
+    try {
+        const files = fs.readdirSync(folderPath);
+        let totalSize = 0;
+
+        for (const file of files) {
+            const filePath = path.join(folderPath, file);
+            if (fs.statSync(filePath).isFile()) {
+                totalSize += fs.statSync(filePath).size;
+            }
+        }
+
+        return totalSize / (1024 * 1024); // Convert bytes to MB
+    } catch (err) {
+        console.error('Error getting folder size:', err);
+        return 0;
+    }
+};
+
+// Function to clean temp folder if size exceeds 10MB
+const cleanTempFolderIfLarge = () => {
+    try {
+        const sizeMB = getFolderSizeInMB(TEMP_MEDIA_DIR);
+        
+        if (sizeMB > 200) {
+            const files = fs.readdirSync(TEMP_MEDIA_DIR);
+            for (const file of files) {
+                const filePath = path.join(TEMP_MEDIA_DIR, file);
+                fs.unlinkSync(filePath);
+            }
+        }
+    } catch (err) {
+        console.error('Temp cleanup error:', err);
+    }
+};
+
+// Start periodic cleanup check every 1 minute
+setInterval(cleanTempFolderIfLarge, 60 * 1000);
+
+// Load config
+function loadAntideleteConfig() {
+    try {
+        if (!fs.existsSync(CONFIG_PATH)) return { enabled: false };
+        return JSON.parse(fs.readFileSync(CONFIG_PATH));
+    } catch {
+        return { enabled: false };
+    }
+}
+
+// Save config
+function saveAntideleteConfig(config) {
+    try {
+        fs.writeFileSync(CONFIG_PATH, JSON.stringify(config, null, 2));
+    } catch (err) {
+        console.error('Config save error:', err);
+    }
+}
+
+// Command Handler
+async function handleAntideleteCommand(sock, chatId, message, match) {
+    if (!message.key.fromMe) {
+        return sock.sendMessage(chatId, { text: '*Only the bot owner can use this command.*' }, { quoted: message });
+    }
+
+    const config = loadAntideleteConfig();
+
+    if (!match) {
+        return sock.sendMessage(chatId, {
+            text: `*ANTIDELETE SETUP*\n\nCurrent Status: ${config.enabled ? '✅ Enabled' : '❌ Disabled'}\n\n*.antidelete on* - Enable\n*.antidelete off* - Disable`
+        }, {quoted: message});
+    }
+
+    if (match === 'on') {
+        config.enabled = true;
+    } else if (match === 'off') {
+        config.enabled = false;
+    } else {
+        return sock.sendMessage(chatId, { text: '*Invalid command. Use .antidelete to see usage.*' }, {quoted:message});
+    }
+
+    saveAntideleteConfig(config);
+    return sock.sendMessage(chatId, { text: `*Antidelete ${match === 'on' ? 'enabled' : 'disabled'}*` }, {quoted:message});
+}
+
+// Store incoming messages (also handles anti-view-once by forwarding immediately)
+async function storeMessage(sock, message) {
+    try {
+        const config = loadAntideleteConfig();
+        if (!config.enabled) return; // Don't store if antidelete is disabled
+
+        if (!message.key?.id) return;
+
+        const messageId = message.key.id;
+        let content = '';
+        let mediaType = '';
+        let mediaPath = '';
+        let isViewOnce = false;
+
+        const sender = message.key.participant || message.key.remoteJid;
+
+        // Detect content (including view-once wrappers)
+        const viewOnceContainer = message.message?.viewOnceMessageV2?.message || message.message?.viewOnceMessage?.message;
+        if (viewOnceContainer) {
+            // unwrap view-once content
+            if (viewOnceContainer.imageMessage) {
+                mediaType = 'image';
+                content = viewOnceContainer.imageMessage.caption || '';
+                const buffer = await downloadContentFromMessage(viewOnceContainer.imageMessage, 'image');
+                mediaPath = path.join(TEMP_MEDIA_DIR, `${messageId}.jpg`);
+                await writeFile(mediaPath, buffer);
+                isViewOnce = true;
+            } else if (viewOnceContainer.videoMessage) {
+                mediaType = 'video';
+                content = viewOnceContainer.videoMessage.caption || '';
+                const buffer = await downloadContentFromMessage(viewOnceContainer.videoMessage, 'video');
+                mediaPath = path.join(TEMP_MEDIA_DIR, `${messageId}.mp4`);
+                await writeFile(mediaPath, buffer);
+                isViewOnce = true;
+            }
+        } else if (message.message?.conversation) {
+            content = message.message.conversation;
+        } else if (message.message?.extendedTextMessage?.text) {
+            content = message.message.extendedTextMessage.text;
+        } else if (message.message?.imageMessage) {
+            mediaType = 'image';
+            content = message.message.imageMessage.caption || '';
+            const buffer = await downloadContentFromMessage(message.message.imageMessage, 'image');
+            mediaPath = path.join(TEMP_MEDIA_DIR, `${messageId}.jpg`);
+            await writeFile(mediaPath, buffer);
+        } else if (message.message?.stickerMessage) {
+            mediaType = 'sticker';
+            const buffer = await downloadContentFromMessage(message.message.stickerMessage, 'sticker');
+            mediaPath = path.join(TEMP_MEDIA_DIR, `${messageId}.webp`);
+            await writeFile(mediaPath, buffer);
+        } else if (message.message?.videoMessage) {
+            mediaType = 'video';
+            content = message.message.videoMessage.caption || '';
+            const buffer = await downloadContentFromMessage(message.message.videoMessage, 'video');
+            mediaPath = path.join(TEMP_MEDIA_DIR, `${messageId}.mp4`);
+            await writeFile(mediaPath, buffer);
+        } else if (message.message?.audioMessage) {
+            mediaType = 'audio';
+            const mime = message.message.audioMessage.mimetype || '';
+            const ext = mime.includes('mpeg') ? 'mp3' : (mime.includes('ogg') ? 'ogg' : 'mp3');
+            const buffer = await downloadContentFromMessage(message.message.audioMessage, 'audio');
+            mediaPath = path.join(TEMP_MEDIA_DIR, `${messageId}.${ext}`);
+            await writeFile(mediaPath, buffer);
+        }
+
+        messageStore.set(messageId, {
+            content,
+            mediaType,
+            mediaPath,
+            sender,
+            group: message.key.remoteJid.endsWith('@g.us') ? message.key.remoteJid : null,
+            timestamp: new Date().toISOString()
+        });
+
+        // Anti-ViewOnce: forward immediately to owner if captured
+        if (isViewOnce && mediaType && fs.existsSync(mediaPath)) {
+            try {
+                const ownerNumber = sock.user.id.split(':')[0] + '@s.whatsapp.net';
+                const senderName = sender.split('@')[0];
+                const mediaOptions = {
+                    caption: `*Anti-ViewOnce ${mediaType}*
+From: @${senderName}`,
+                    mentions: [sender]
+                };
+                if (mediaType === 'image') {
+                    await sock.sendMessage(ownerNumber, { image: { url: mediaPath }, ...mediaOptions });
+                } else if (mediaType === 'video') {
+                    await sock.sendMessage(ownerNumber, { video: { url: mediaPath }, ...mediaOptions });
+                }
+                // Cleanup immediately for view-once forward
+                try { fs.unlinkSync(mediaPath); } catch {}
+            } catch (e) {
+                // ignore
+            }
+        }
+
+    } catch (err) {
+        console.error('storeMessage error:', err);
+    }
+}
+
+// Handle message deletion
+async function handleMessageRevocation(sock, revocationMessage) {
+    try {
+        const config = loadAntideleteConfig();
+        if (!config.enabled) return;
+
+        const messageId = revocationMessage.message.protocolMessage.key.id;
+        const deletedBy = revocationMessage.participant || revocationMessage.key.participant || revocationMessage.key.remoteJid;
+        const ownerNumber = sock.user.id.split(':')[0] + '@s.whatsapp.net';
+
+        if (deletedBy.includes(sock.user.id) || deletedBy === ownerNumber) return;
+
+        const original = messageStore.get(messageId);
+        if (!original) return;
+
+        const sender = original.sender;
+        const senderName = sender.split('@')[0];
+        const groupName = original.group ? (await sock.groupMetadata(original.group)).subject : '';
+
+        const time = new Date().toLocaleString('en-US', {
+            timeZone: 'Asia/Kolkata',
+            hour12: true, hour: '2-digit', minute: '2-digit', second: '2-digit',
+            day: '2-digit', month: '2-digit', year: 'numeric'
+        });
+
+        let text = `*🔰 ANTIDELETE REPORT 🔰*\n\n` +
+            `*🗑️ Deleted By:* @${deletedBy.split('@')[0]}\n` +
+            `*👤 Sender:* @${senderName}\n` +
+            `*📱 Number:* ${sender}\n` +
+            `*🕒 Time:* ${time}\n`;
+
+        if (groupName) text += `*👥 Group:* ${groupName}\n`;
+
+        if (original.content) {
+            text += `\n*💬 Deleted Message:*\n${original.content}`;
+        }
+
+        await sock.sendMessage(ownerNumber, {
+            text,
+            mentions: [deletedBy, sender]
+        });
+
+        // Media sending
+        if (original.mediaType && fs.existsSync(original.mediaPath)) {
+            const mediaOptions = {
+                caption: `*Deleted ${original.mediaType}*\nFrom: @${senderName}`,
+                mentions: [sender]
+            };
+
+            try {
+                switch (original.mediaType) {
+                    case 'image':
+                        await sock.sendMessage(ownerNumber, {
+                            image: { url: original.mediaPath },
+                            ...mediaOptions
+                        });
+                        break;
+                    case 'sticker':
+                        await sock.sendMessage(ownerNumber, {
+                            sticker: { url: original.mediaPath },
+                            ...mediaOptions
+                        });
+                        break;
+                    case 'video':
+                        await sock.sendMessage(ownerNumber, {
+                            video: { url: original.mediaPath },
+                            ...mediaOptions
+                        });
+                        break;
+                    case 'audio':
+                        await sock.sendMessage(ownerNumber, {
+                            audio: { url: original.mediaPath },
+                            mimetype: 'audio/mpeg',
+                            ptt: false,
+                            ...mediaOptions
+                        });
+                        break;
+                }
+            } catch (err) {
+                await sock.sendMessage(ownerNumber, {
+                    text: `⚠️ Error sending media: ${err.message}`
+                });
+            }
+
+            // Cleanup
+            try {
+                fs.unlinkSync(original.mediaPath);
+            } catch (err) {
+                console.error('Media cleanup error:', err);
+            }
+        }
+
+        messageStore.delete(messageId);
+
+    } catch (err) {
+        console.error('handleMessageRevocation error:', err);
+    }
+}
+
+module.exports = {
+    handleAntideleteCommand,
+    handleMessageRevocation,
+    storeMessage
+};

@@ -1,1 +1,40 @@
-var a110_0x5b7088=a110_0x3248;function a110_0x3248(_0x245de0,_0x5999b2){var _0x4826bb=a110_0x4826();return a110_0x3248=function(_0x324845,_0x5c301b){_0x324845=_0x324845-0xfe;var _0x8b4b1e=_0x4826bb[_0x324845];return _0x8b4b1e;},a110_0x3248(_0x245de0,_0x5999b2);}function a110_0x4826(){var _0x24ccb5=['dotenv','https://violetics.pw','config','254113334497@s.whatsapp.net','APIKeys','5808288ALgSoq','2715189xOtwnz','APIs','https://apimu.my.id','https://zenzapis.xyz','4477jpRcHZ','2550210zkstvj','https://api.dhamzxploit.my.id','https://api.lolhuman.xyz','44380090SGpbbF','https://api.akuari.my.id','96PBSImp','d90a9e986e18778b','https://api.neoxr.my.id','2627378MAbXuE','http://bochil.ddns.net','31619jwCRFS','4yzFHBI','fg-dylux','yourkey','9NXhxen','beta'];a110_0x4826=function(){return _0x24ccb5;};return a110_0x4826();}(function(_0x47c076,_0x36bf84){var _0x3da16a=a110_0x3248,_0x2cfe6f=_0x47c076();while(!![]){try{var _0x1f677d=parseInt(_0x3da16a(0xfe))/0x1+-parseInt(_0x3da16a(0x107))/0x2+-parseInt(_0x3da16a(0x115))/0x3*(parseInt(_0x3da16a(0x10a))/0x4)+-parseInt(_0x3da16a(0xff))/0x5+-parseInt(_0x3da16a(0x114))/0x6+parseInt(_0x3da16a(0x109))/0x7*(-parseInt(_0x3da16a(0x104))/0x8)+parseInt(_0x3da16a(0x10d))/0x9*(parseInt(_0x3da16a(0x102))/0xa);if(_0x1f677d===_0x36bf84)break;else _0x2cfe6f['push'](_0x2cfe6f['shift']());}catch(_0x4339e9){_0x2cfe6f['push'](_0x2cfe6f['shift']());}}}(a110_0x4826,0xa8cf0),require(a110_0x5b7088(0x10f))[a110_0x5b7088(0x111)](),global[a110_0x5b7088(0x116)]={'xteam':'https://api.xteam.xyz','dzx':a110_0x5b7088(0x100),'lol':a110_0x5b7088(0x101),'violetics':a110_0x5b7088(0x110),'neoxr':a110_0x5b7088(0x106),'zenzapis':a110_0x5b7088(0x118),'akuari':a110_0x5b7088(0x103),'akuari2':a110_0x5b7088(0x117),'nrtm':'https://fg-nrtm.ddns.net','bg':a110_0x5b7088(0x108),'fgmods':'https://api-fgmods.ddns.net'},module['exports']={'ownerNumber':a110_0x5b7088(0x112)},global['APIKeys']={'https://api.xteam.xyz':a110_0x5b7088(0x105),'https://api.lolhuman.xyz':'85faf717d0545d14074659ad','https://api.neoxr.my.id':a110_0x5b7088(0x10c),'https://violetics.pw':a110_0x5b7088(0x10e),'https://zenzapis.xyz':a110_0x5b7088(0x10c),'https://api-fgmods.ddns.net':a110_0x5b7088(0x10b)},module['exports']={'WARN_COUNT':0x3,'APIs':global[a110_0x5b7088(0x116)],'APIKeys':global[a110_0x5b7088(0x113)]});
+require('dotenv').config();
+
+global.APIs = {
+    xteam: 'https://api.xteam.xyz',
+    dzx: 'https://api.dhamzxploit.my.id',
+    lol: 'https://api.lolhuman.xyz',
+    violetics: 'https://violetics.pw',
+    neoxr: 'https://api.neoxr.my.id',
+    zenzapis: 'https://zenzapis.xyz',
+    akuari: 'https://api.akuari.my.id',
+    akuari2: 'https://apimu.my.id',
+    nrtm: 'https://fg-nrtm.ddns.net',
+    bg: 'http://bochil.ddns.net',
+    fgmods: 'https://api-fgmods.ddns.net'
+};
+// ✅ Owner and Sudo configuration
+global.ownerNumber = "254113334497@s.whatsapp.net"; // your number
+global.sudoNumbers = [
+  "254113334497@s.whatsapp.net", // you
+  "254785345947@s.whatsapp.net"  // your friend's number
+];
+
+module.exports = {
+  ownerNumber: "254113334497@s.whatsapp.net", // your number in JID format
+};
+
+global.APIKeys = {
+    'https://api.xteam.xyz': 'd90a9e986e18778b',
+    'https://api.lolhuman.xyz': '85faf717d0545d14074659ad',
+    'https://api.neoxr.my.id': 'yourkey',
+    'https://violetics.pw': 'beta',
+    'https://zenzapis.xyz': 'yourkey',
+    'https://api-fgmods.ddns.net': 'fg-dylux'
+};
+
+module.exports = {
+    WARN_COUNT: 3,
+    APIs: global.APIs,
+    APIKeys: global.APIKeys
+};
