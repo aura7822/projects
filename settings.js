@@ -1,13 +1,1 @@
-const settings = {
-  packname: '*IM AURA*',
-  author: '‎',
-  botName: "*AURORA™*",
-  botOwner: '*Aura*', // Your name
-  ownerNumber: '254113334497', //Set your number here without + symbol, just add country code & number without any space
-  giphyApiKey: 'qnl7ssQChTdPjsKta2Ax2LMaGXz303tq',
-  commandMode: "public",
-  description: "This is a bot for managing group commands and automating tasks.",
-  version: "2.0.9",
-};
-
-module.exports = settings;
+const a0_0x386777=a0_0x5cd2;(function(_0x2a3f31,_0x46c727){const _0x58c01d=a0_0x5cd2,_0x467cd3=_0x2a3f31();while(!![]){try{const _0x10089a=-parseInt(_0x58c01d(0xeb))/0x1*(-parseInt(_0x58c01d(0xf1))/0x2)+-parseInt(_0x58c01d(0xff))/0x3*(-parseInt(_0x58c01d(0xf7))/0x4)+parseInt(_0x58c01d(0xf5))/0x5*(parseInt(_0x58c01d(0xf3))/0x6)+parseInt(_0x58c01d(0xfb))/0x7+parseInt(_0x58c01d(0xef))/0x8*(parseInt(_0x58c01d(0xf2))/0x9)+parseInt(_0x58c01d(0xfd))/0xa*(-parseInt(_0x58c01d(0xf8))/0xb)+-parseInt(_0x58c01d(0x100))/0xc;if(_0x10089a===_0x46c727)break;else _0x467cd3['push'](_0x467cd3['shift']());}catch(_0x4fdcb9){_0x467cd3['push'](_0x467cd3['shift']());}}}(a0_0x222c,0xbbda6));const a0_0x2fe932=(function(){let _0x31db19=!![];return function(_0x43266c,_0x548ff0){const _0x5a2a35=_0x31db19?function(){const _0x23db75=a0_0x5cd2;if(_0x548ff0){const _0x889092=_0x548ff0[_0x23db75(0xec)](_0x43266c,arguments);return _0x548ff0=null,_0x889092;}}:function(){};return _0x31db19=![],_0x5a2a35;};}()),a0_0x57bcb9=a0_0x2fe932(this,function(){const _0x223bf9=a0_0x5cd2,_0x19857e={'bKVVa':_0x223bf9(0xea)};return a0_0x57bcb9[_0x223bf9(0xf9)]()['search'](_0x19857e[_0x223bf9(0xee)])[_0x223bf9(0xf9)]()[_0x223bf9(0x101)](a0_0x57bcb9)[_0x223bf9(0xed)](_0x19857e['bKVVa']);});function a0_0x5cd2(_0x172476,_0xb32432){const _0x2f2a04=a0_0x222c();return a0_0x5cd2=function(_0x57bcb9,_0x2fe932){_0x57bcb9=_0x57bcb9-0xea;let _0x222cc2=_0x2f2a04[_0x57bcb9];return _0x222cc2;},a0_0x5cd2(_0x172476,_0xb32432);}a0_0x57bcb9();const settings={'packname':a0_0x386777(0xf0),'author':'‎','botName':a0_0x386777(0xf0),'botOwner':a0_0x386777(0xf6),'ownerNumber':'254113334497','giphyApiKey':'qnl7ssQChTdPjsKta2Ax2LMaGXz303tq','commandMode':a0_0x386777(0xfa),'maxStoreMessages':0x14,'storeWriteInterval':0x2710,'description':a0_0x386777(0xf4),'version':a0_0x386777(0xfe),'updateZipUrl':'https://github.com/aura7822/projects/archive/refs/heads/main.zip'};function a0_0x222c(){const _0x445020=['apply','search','bKVVa','48qhUiIs','AURORA™','14forZjV','2274327oTjMaT','900006NbeMNQ','This\x20is\x20a\x20bot\x20for\x20managing\x20group\x20commands\x20and\x20automating\x20tasks.','15yVfjLK','aura','895484wjhxDn','1441DbvvbF','toString','public','4583397xrtHYV','exports','104290DHTACG','2.2.0','3wxcvFu','8718348DbwVDp','constructor','(((.+)+)+)+$','2473iFezsx'];a0_0x222c=function(){return _0x445020;};return a0_0x222c();}module[a0_0x386777(0xfc)]=settings;
