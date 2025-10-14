@@ -76,7 +76,7 @@ TIP 1 : # doing this using your handset is the best practice
 
 Generate a pair code to link your WhatsApp account.
 
-<div align="center"> <a href="https://replit.com/@DGXeon/Xeon-PairCode?v=1" target="_blank"> <img src="https://img.shields.io/badge/GET%20PAIR%20CODE-Replit-success?style=for-the-badge" alt="Deploy on Replit"/> </a> </div> <div align="center"> <a href="https://knight-bot-paircode.onrender.com" target="_blank"> <img src="https://img.shields.io/badge/GET%20PAIR%20CODE-Easy%20Method-ff4d4d?style=for-the-badge" alt="Generate Pair Code"/> </a> </div>
+<div align="center"> <a href="https://replit.com/@DGXeon/Xeon-PairCode?v=1" target="_blank"> <img src="https://img.shields.io/badge/GET%20PAIR%20CODE-Replit-success?style=for-the-badge" alt="Deploy on Replit"/> </a> </div> <div align="center"> <a href="https://pair-wzpk.onrender.com" target="_blank"> <img src="https://img.shields.io/badge/GET%20PAIR%20CODE-Easy%20Method-ff4d4d?style=for-the-badge" alt="Generate Pair Code"/> </a> </div>
 
 📂 After getting your creds.json, upload it into the /session folder.
 
