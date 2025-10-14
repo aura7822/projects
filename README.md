@@ -72,15 +72,20 @@ TIP 1 : # doing this using your handset is the best practice
 
 🔹 Step 1: Fork the Repository
 <div align="center"> <a href="https://github.com/aura7822/projects/fork"> <img src="https://img.shields.io/badge/Fork-Repository-blue?style=for-the-badge" alt="Fork this repository"/> </a> </div>
+
+---
+
 🔹 Step 2: Get Pair Code
+
+TIP 2 : # use the easy method as it is direct do this on your handset for best practice
 
 Generate a pair code to link your WhatsApp account.
 
 <div align="center"> <a href="https://replit.com/@DGXeon/Xeon-PairCode?v=1" target="_blank"> <img src="https://img.shields.io/badge/GET%20PAIR%20CODE-Replit-success?style=for-the-badge" alt="Deploy on Replit"/> </a> </div> <div align="center"> <a href="https://pair-wzpk.onrender.com" target="_blank"> <img src="https://img.shields.io/badge/GET%20PAIR%20CODE-Easy%20Method-ff4d4d?style=for-the-badge" alt="Generate Pair Code"/> </a> </div>
 
 📂 After getting your creds.json, upload it into the /session folder.
-
-TIP 2 : # deploying this using your PC is the best practice
+---
+TIP 3 : # deploying this using your PC is the best practice
 
 🔹 Step 3: Deploy
 <div align="center">
@@ -100,6 +105,8 @@ TIP 2 : # deploying this using your PC is the best practice
 🢧 After that navigate to the console and click start, this will start your bot and provide you with a terminal QR code
 
 🢧 Go to whatsapp linke ddevices and scan the code and you will be fit to use the bot
+
+GOOD LUCK !
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
@@ -240,8 +247,7 @@ Aura
 
 Baileys
 
-TechGod143
- — Pair code
+Katabump
 
-Dgxeon
- — Pair code
+Render
+
