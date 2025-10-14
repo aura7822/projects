@@ -60,10 +60,10 @@ Node.js + Baileys MD
 Supports yt-dlp, ffmpeg, and other libraries
 
 Deployable on Heroku / Render / VPS / Katabump
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-<div align="center"> <a href="https://git.io/typing-svg"> <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=500&color=A020F0&center=true&width=910&height=100&lines=IM+AURA;Multi+Device+Whatsapp+Bot;Coded+By+Aura" alt="Typing SVG" /> </a> </div> <div align="center"> <a href="https://www.youtube.com/watch?v=37RBJt33J68&list=RDGMEMYH9CUrFO7CfLJpaD7UR85wVM37RBJt33J68&start_radio=1"> <img src="https://github.com/aura7822/projects/blob/main/assets/matrix.gif" alt="IM AURA" height="300"> </a> </div>
+<div align="center"> <a href="https://git.io/typing-svg"> <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=500&color=A020F0&center=true&width=910&height=100&lines=AURORA;Multi+Device+Whatsapp+Bot;Coded+By+Aura" alt="Typing SVG" /> </a> </div> <div align="center"> <a href="https://www.youtube.com/watch?v=37RBJt33J68&list=RDGMEMYH9CUrFO7CfLJpaD7UR85wVM37RBJt33J68&start_radio=1"> <img src="https://github.com/aura7822/projects/blob/main/assets/matrix.gif" alt="IM AURA" height="300"> </a> </div>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 TIP 1 : # doing this using your handset is the best practice
@@ -109,7 +109,7 @@ TIP 3 : # deploying this using your PC is the best practice
 GOOD LUCK !
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+# ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ⚙️ Additional Features :
 
 🧠 AI Chat with .gpt or .sora
@@ -125,11 +125,11 @@ GOOD LUCK !
 🔗 Anti-link protection for safe groups
 
 🚨 Warn & manage members with strike system
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 🛠️ Setup & Installation
-🔑 Prerequisites
+🔑 Prerequisites :
 
 ※Node.js
 
@@ -139,7 +139,7 @@ GOOD LUCK !
 
 ※Good internet
 
-※Spotify playlist(optional btw)
+※Spotify playlist (optional btw)
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
@@ -194,7 +194,7 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 Paste this after the installation
 ```
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+# ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 ⚠️ Important Warning :
 
@@ -230,10 +230,6 @@ Do not use for spam or illegal activities.
 
 Licensed under MIT License.
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-
-Copyright © 2025 aura.
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 🌟 Support the Project
 
@@ -250,4 +246,9 @@ Baileys
 Katabump
 
 Render
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+Copyright © 2025 aura.
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+# ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
