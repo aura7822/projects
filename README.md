@@ -1,6 +1,6 @@
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=500&color=8B0000&center=true&width=1200&height=100&lines=HELLO%20WORLD%20WELCOME;LOADING%20MODULES%20.%20.%20.%20.%20.%20.;CREATED%20BY%20CONCORD-XMD" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=500&color=8B0000&center=true&width=1200&height=100&lines=HELLO%20WORLD%20WELCOME;LOADING%20MODULES%20.%20.%20.%20.%20.%20.;CREATED%20BY%20AURORA-XMD" alt="Typing SVG" />
 </a>
 <div align="center">
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
@@ -8,7 +8,7 @@
   <img src="https://github.com/aura7822/projects/blob/main/assets/cover.gif" alt="IM AURA Banner" width="100%" height="auto"/>
 
   <!-- Title -->
-  <h1 style="color:#33ff00; font-family:monospace;">🤵🏽 IM AURA ( CONCORD )</h1>
+  <h1 style="color:#33ff00; font-family:monospace;">🌹 AURORA™</h1>
 
   <p><b>CURRENT BOT VERSION ➜ <code>2.7.0 ⚡</code></b></p>
 
@@ -22,21 +22,19 @@
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-🤵🏽IM AURA (CONCORD)
+🌹 AURORA™ || VERSION `2.7.0`
 <div align="center">
   <hr style="border: none; height: 3px; background: linear-gradient(90deg, #00ff00, #33ff00, #00ff00); box-shadow: 0 0 10px #33ff00, 0 0 20px #00ff00;">
 </div>
-> **CURRENT BOT VERSION ➜ `2.7.0 ⚡`**
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 
-🚀 IM AURA is a multi-device WhatsApp assistant powered by Baileys MD, built with a hacker-themed cyberpunk vibe 🕶️.
+🌹 AURORA™ is a multi-device powerfull WhatsApp assistant powered by Baileys MD, built with a hacker-themed cyberpunk vibe 🕶️.
 It’s crafted for speed ⚡, security 🔐, and full customization 🛠️, giving you complete control over WhatsApp through powerful automation.
+Packed with over 170 commands to satisfy your automation needs
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-✨ Core Features
+✨ Core Features :
 
 ⚡ Command System → .commands for music, tools, and fun.
 
@@ -55,7 +53,7 @@ It’s crafted for speed ⚡, security 🔐, and full customization 🛠️, giv
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-🔧 Tech Stack
+🔧 Tech Stack:
 
 Node.js + Baileys MD
 
@@ -68,8 +66,10 @@ Deployable on Heroku / Render / VPS / Katabump
 <div align="center"> <a href="https://git.io/typing-svg"> <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=500&color=A020F0&center=true&width=910&height=100&lines=IM+AURA;Multi+Device+Whatsapp+Bot;Coded+By+Aura" alt="Typing SVG" /> </a> </div> <div align="center"> <a href="https://www.youtube.com/watch?v=37RBJt33J68&list=RDGMEMYH9CUrFO7CfLJpaD7UR85wVM37RBJt33J68&start_radio=1"> <img src="https://github.com/aura7822/projects/blob/main/assets/matrix.gif" alt="IM AURA" height="300"> </a> </div>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
+TIP 1 : # doing this using your handset is the best practice
 
-🚀 Deployment
+🚀 Deployment 
+
 🔹 Step 1: Fork the Repository
 <div align="center"> <a href="https://github.com/aura7822/projects/fork"> <img src="https://img.shields.io/badge/Fork-Repository-blue?style=for-the-badge" alt="Fork this repository"/> </a> </div>
 🔹 Step 2: Get Pair Code
@@ -80,14 +80,32 @@ Generate a pair code to link your WhatsApp account.
 
 📂 After getting your creds.json, upload it into the /session folder.
 
+TIP 2 : # deploying this using your PC is the best practice
+
 🔹 Step 3: Deploy
-<div align="center"> <a href="https://youtu.be/-oz_u1iMgf8"> <img src="https://img.shields.io/badge/Deploy Tutorial-dc3545?style=for-the-badge&logo=youtube" alt="YouTube Link"/> </a> <a href="https://bot-hosting.net/?aff=1068419752923508776"> <img src="https://img.shields.io/badge/Deploy on Panel-28a745?style=for-the-badge" alt="Deploy on Panel"/> </a> </div>
+<div align="center">
+  <a href="https://katabump.com/login" target="_blank">
+    <img src="https://img.shields.io/badge/Deploy%20on%20Katabump-28a745?style=for-the-badge" alt="Deploy on Katabump"/>
+  </a>
+</div>
+
+🢧 Once you reach Katabump, create a server and name it .
+
+🢧 After creation navigate to file manager and click upload button on the top right.
+
+🢧 Import the zip file you downloded from the repository, click on the three buttons and unachive it
+
+🢧 Navigate to the new directory and select all files and click move on the top right and type in  the empty field '../'
+
+🢧 After that navigate to the console and click start, this will start your bot and provide you with a terminal QR code
+
+🢧 Go to whatsapp linke ddevices and scan the code and you will be fit to use the bot
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 ⚙️ Additional Features :
 
-🧠 AI Chat with .gpt
+🧠 AI Chat with .gpt or .sora
 
 🛡️ Anti-delete (recovers deleted messages)
 
@@ -106,20 +124,28 @@ Generate a pair code to link your WhatsApp account.
 🛠️ Setup & Installation
 🔑 Prerequisites
 
-Node.js
+※Node.js
 
-Git
+※Git
+
+※Handset / PC
+
+※Good internet
+
+※Spotify playlist(optional btw)
+
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-🔹 Steps
-# Clone the repo
+🔹 Steps For Native hosting (unrecommended) :
+# 🨀Clone the repo
 git clone https://github.com/aura7822/projects.git
+
 cd projects
 
-# Install dependencies
+# 🨀Install dependencies
 npm install
 
-# Run the bot
+# 🨀Run the bot
 node index.js
 
 
@@ -163,17 +189,30 @@ Paste this after the installation
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-⚠️ Important Warning
-! WARNING: This bot is not affiliated with WhatsApp Inc.
-! Using third-party WhatsApp bots violates WhatsApp's Terms of Service.
-! Your number may be TEMPORARILY or PERMANENTLY banned.
+⚠️ Important Warning :
 
+⚠ WARNING: This bot is not affiliated with WhatsApp Inc.
 
-This project is for educational & personal use only 🛠️.
+⚠ Using third-party WhatsApp bots violates WhatsApp's Terms of Service.
 
-The developers are not responsible for bans, misuse, or damages.
+⚠ Your number may be TEMPORARILY or PERMANENTLY banned.
 
-👉 Use responsibly and at your own risk.
+⚠ Incorrect installation steps, usage, code editing may cause spamware attacks in your WhatsApp contacts
+
+⚠This project is for educational & personal use only , not official or commercial use 🛠️.
+
+⚠The developers are not responsible for bans, misuse, or damages.
+
+Incase of crashes or Spamware attacks :
+
+🖝Immediately stop the bot
+
+🖝Unlink the bot's linked device(FEDORA)
+
+🖝Report issue to developer for debbuging advice ↘
+
+ <img src="https://img.shields.io/badge/Platform-WhatsApp-25D366?style=for-the-badge&logo=whatsapp" />
+
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 📝 Legal & License
