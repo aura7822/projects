@@ -251,4 +251,10 @@ Render
 Copyright © 2025 aura.
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 # ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+<div align="center">
+  <a href="https://pair-wzpk.onrender.com" target="_blank">
+    <img src="https://img.shields.io/badge/GET%20PAIR%20CODE-KNIGHT%20BOT-ff4d4d?style=for-the-badge&logo=whatsapp" alt="Get Pair Code on Knight Bot" />
+  </a>
+</div>
+
 
