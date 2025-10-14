@@ -15,14 +15,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "docker:build": "docker build -t docker run -e SESSION_ID=$SESSION_ID imaura"
   },
-  {
-  "name": "paircode-server",
-  "version": "1.0.0",
-  "main": "paircode.js",
-  "type": "module",
-  "scripts": {
-    "start": "node paircode.js"
-  },
+ 
   "keywords": [
     "whatsapp-bot"
   ],
