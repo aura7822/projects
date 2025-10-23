@@ -1,1 +1,162 @@
-const a11_0x1394ed=a11_0xe475;(function(_0x414d50,_0x18c92f){const _0x374bb9=a11_0xe475,_0x4e2ef6=_0x414d50();while(!![]){try{const _0x17d914=-parseInt(_0x374bb9(0x198))/0x1+-parseInt(_0x374bb9(0x1d1))/0x2*(-parseInt(_0x374bb9(0x1bb))/0x3)+-parseInt(_0x374bb9(0x1cb))/0x4+-parseInt(_0x374bb9(0x1f5))/0x5+-parseInt(_0x374bb9(0x1eb))/0x6*(-parseInt(_0x374bb9(0x1ca))/0x7)+parseInt(_0x374bb9(0x1dd))/0x8+-parseInt(_0x374bb9(0x1ad))/0x9*(-parseInt(_0x374bb9(0x1f4))/0xa);if(_0x17d914===_0x18c92f)break;else _0x4e2ef6['push'](_0x4e2ef6['shift']());}catch(_0x400e39){_0x4e2ef6['push'](_0x4e2ef6['shift']());}}}(a11_0x486d,0x8dcc4));const a11_0x57caa1=(function(){const _0x47cb0b=a11_0xe475,_0xd01bbb={'SXtwA':function(_0x19497e,_0x1e1cc2){return _0x19497e!==_0x1e1cc2;},'LEVqJ':_0x47cb0b(0x1e7),'bBGZW':_0x47cb0b(0x191),'CmUSx':function(_0x4792e2,_0x21281d){return _0x4792e2!==_0x21281d;},'TAJZP':_0x47cb0b(0x1ee)};let _0x2271dd=!![];return function(_0x10e6ed,_0x1e256a){const _0x5cc524=_0x47cb0b;if(_0xd01bbb[_0x5cc524(0x1d2)](_0x5cc524(0x1fc),_0xd01bbb[_0x5cc524(0x18e)])){const _0x2d435e=_0x2271dd?function(){const _0x5ec431=_0x5cc524;if(_0x1e256a){if(_0xd01bbb[_0x5ec431(0x1d5)](_0xd01bbb[_0x5ec431(0x184)],_0xd01bbb[_0x5ec431(0x1e9)])){const _0x32bd9e=_0x1e256a['apply'](_0x10e6ed,arguments);return _0x1e256a=null,_0x32bd9e;}else _0x8926d[_0x5ec431(0x1a0)]('❌\x20Error\x20in\x20auto\x20status\x20view:',_0x374cbb[_0x5ec431(0x1d8)]);}}:function(){};return _0x2271dd=![],_0x2d435e;}else throw _0x21ded4;};}()),a11_0x565531=a11_0x57caa1(this,function(){const _0x10922a=a11_0xe475,_0x4ad543={'wYLhm':_0x10922a(0x1be)};return a11_0x565531[_0x10922a(0x1b4)]()[_0x10922a(0x19f)](_0x4ad543[_0x10922a(0x1ba)])['toString']()[_0x10922a(0x1fb)](a11_0x565531)[_0x10922a(0x19f)](_0x4ad543[_0x10922a(0x1ba)]);});a11_0x565531();const fs=require('fs'),path=require(a11_0x1394ed(0x1a4)),configPath=path[a11_0x1394ed(0x20a)](__dirname,a11_0x1394ed(0x1b9));!fs[a11_0x1394ed(0x1e4)](configPath)&&fs[a11_0x1394ed(0x1b6)](configPath,JSON[a11_0x1394ed(0x1c9)]({'enabled':![],'reactOn':![]}));async function autoStatusCommand(_0x1bafc8,_0x3c5382,_0x1a78d4,_0x4ec76f){const _0x23827c=a11_0x1394ed,_0x1944c1={'ouJwv':_0x23827c(0x1ec),'NtBiW':function(_0x505879,_0x540555){return _0x505879===_0x540555;},'SaZsC':_0x23827c(0x1da),'gWrYv':_0x23827c(0x206),'nLZiJ':function(_0x2fc2f5,_0x48798a){return _0x2fc2f5===_0x48798a;},'YSlXZ':'off','oGcGX':function(_0x1b48cb,_0x1bd4e8){return _0x1b48cb===_0x1bd4e8;},'yjlMH':_0x23827c(0x1a8),'rXDxL':'❌\x20Please\x20specify\x20on/off\x20for\x20reactions!\x0aUse:\x20.autostatus\x20react\x20on/off','mmTBL':'pIkzJ','dSpMN':'neOlU','gEjos':'💫\x20Status\x20reactions\x20have\x20been\x20enabled!\x0aBot\x20will\x20now\x20react\x20to\x20status\x20updates.','rxWHV':'zoHRe','qAjsY':_0x23827c(0x1ef),'CMOxI':'❌\x20Invalid\x20reaction\x20command!\x20Use:\x20.autostatus\x20react\x20on/off','uqwqQ':function(_0x4400e4,_0x514d81){return _0x4400e4===_0x514d81;},'MrxDW':_0x23827c(0x1a1),'FYAaL':_0x23827c(0x1d3),'cfmVR':'Error\x20in\x20autostatus\x20command:','dqskh':function(_0x1943f8,_0x2643dc){return _0x1943f8+_0x2643dc;},'KBnGZ':'❌\x20Error\x20occurred\x20while\x20managing\x20auto\x20status!\x0a'};try{if(!_0x1a78d4['key'][_0x23827c(0x1c1)]){await _0x1bafc8[_0x23827c(0x1e0)](_0x3c5382,{'text':_0x1944c1[_0x23827c(0x188)]});return;}let _0x51bb55=JSON['parse'](fs['readFileSync'](configPath));if(!_0x4ec76f||_0x1944c1[_0x23827c(0x1b5)](_0x4ec76f[_0x23827c(0x185)],0x0)){const _0x537e2e=_0x51bb55['enabled']?_0x1944c1[_0x23827c(0x201)]:_0x1944c1[_0x23827c(0x1d6)],_0x5d7fc2=_0x51bb55[_0x23827c(0x192)]?_0x1944c1[_0x23827c(0x201)]:_0x1944c1[_0x23827c(0x1d6)];await _0x1bafc8[_0x23827c(0x1e0)](_0x3c5382,{'text':_0x23827c(0x1e2)+_0x537e2e+_0x23827c(0x195)+_0x5d7fc2+_0x23827c(0x1fe)});return;}const _0x18c1b8=_0x4ec76f[0x0][_0x23827c(0x1ff)]();if(_0x1944c1[_0x23827c(0x189)](_0x18c1b8,'on'))_0x51bb55['enabled']=!![],fs[_0x23827c(0x1b6)](configPath,JSON[_0x23827c(0x1c9)](_0x51bb55)),await _0x1bafc8['sendMessage'](_0x3c5382,{'text':'✅\x20Auto\x20status\x20view\x20has\x20been\x20enabled!\x0aBot\x20will\x20now\x20automatically\x20view\x20all\x20contact\x20statuses.'});else{if(_0x1944c1[_0x23827c(0x189)](_0x18c1b8,_0x1944c1[_0x23827c(0x1e6)]))_0x51bb55['enabled']=![],fs[_0x23827c(0x1b6)](configPath,JSON[_0x23827c(0x1c9)](_0x51bb55)),await _0x1bafc8[_0x23827c(0x1e0)](_0x3c5382,{'text':'❌\x20Auto\x20status\x20view\x20has\x20been\x20disabled!\x0aBot\x20will\x20no\x20longer\x20automatically\x20view\x20statuses.'});else{if(_0x1944c1[_0x23827c(0x1ce)](_0x18c1b8,_0x1944c1[_0x23827c(0x1bc)])){if(!_0x4ec76f[0x1]){await _0x1bafc8['sendMessage'](_0x3c5382,{'text':_0x1944c1[_0x23827c(0x1a5)]});return;}const _0x493d0e=_0x4ec76f[0x1][_0x23827c(0x1ff)]();if(_0x1944c1[_0x23827c(0x189)](_0x493d0e,'on')){if(_0x1944c1[_0x23827c(0x1b5)](_0x1944c1[_0x23827c(0x20b)],_0x1944c1[_0x23827c(0x1cd)]))return;else _0x51bb55['reactOn']=!![],fs['writeFileSync'](configPath,JSON[_0x23827c(0x1c9)](_0x51bb55)),await _0x1bafc8['sendMessage'](_0x3c5382,{'text':_0x1944c1[_0x23827c(0x204)]});}else{if(_0x1944c1[_0x23827c(0x1b5)](_0x493d0e,_0x23827c(0x1a9))){if(_0x1944c1[_0x23827c(0x189)](_0x23827c(0x1ac),_0x1944c1[_0x23827c(0x1c7)]))_0x51bb55['reactOn']=![],fs[_0x23827c(0x1b6)](configPath,JSON[_0x23827c(0x1c9)](_0x51bb55)),await _0x1bafc8[_0x23827c(0x1e0)](_0x3c5382,{'text':_0x23827c(0x1b0)});else throw _0x1b6d9d;}else{if(_0x1944c1[_0x23827c(0x189)](_0x1944c1[_0x23827c(0x196)],_0x1944c1[_0x23827c(0x196)]))await _0x1bafc8[_0x23827c(0x1e0)](_0x3c5382,{'text':_0x1944c1['CMOxI']});else{const _0x28dba6=_0x207c98?function(){if(_0x3166ef){const _0x1ac179=_0x33ba2b['apply'](_0xd586b0,arguments);return _0xe71d65=null,_0x1ac179;}}:function(){};return _0x214c6c=![],_0x28dba6;}}}}else{if(_0x1944c1[_0x23827c(0x1f2)](_0x1944c1[_0x23827c(0x1f1)],_0x1944c1['MrxDW']))await _0x1bafc8[_0x23827c(0x1e0)](_0x3c5382,{'text':_0x1944c1[_0x23827c(0x1f9)]});else{const _0x301e85=_0x445bae[_0x23827c(0x1af)](_0x47882f[_0x23827c(0x203)](_0xd0f0ff));return _0x301e85['enabled'];}}}}}catch(_0x2ee204){console[_0x23827c(0x1a0)](_0x1944c1[_0x23827c(0x1f0)],_0x2ee204),await _0x1bafc8[_0x23827c(0x1e0)](_0x3c5382,{'text':_0x1944c1[_0x23827c(0x205)](_0x1944c1[_0x23827c(0x207)],_0x2ee204[_0x23827c(0x1d8)])});}}function isAutoStatusEnabled(){const _0x3faff6=a11_0x1394ed,_0x23717d={'TpRTq':_0x3faff6(0x1c3),'Ukkte':_0x3faff6(0x197),'nmLyo':function(_0x107236,_0x37a015){return _0x107236!==_0x37a015;},'qXinm':_0x3faff6(0x1cf)};try{if(_0x23717d[_0x3faff6(0x1df)]!==_0x23717d['Ukkte']){const _0x19c96c=JSON['parse'](fs[_0x3faff6(0x203)](configPath));return _0x19c96c['enabled'];}else _0x37ac4c[_0x3faff6(0x1b6)](_0x249efc,_0x333e8d[_0x3faff6(0x1c9)]({'enabled':![],'reactOn':![]}));}catch(_0x480184){if(_0x23717d[_0x3faff6(0x1f8)](_0x23717d[_0x3faff6(0x190)],_0x23717d[_0x3faff6(0x190)]))try{const _0x72eb8c=_0x1e17c3[_0x3faff6(0x1af)](_0x2988f6[_0x3faff6(0x203)](_0x5c716c));return _0x72eb8c['enabled'];}catch(_0x152bd0){return _0x241ed9[_0x3faff6(0x1a0)](_0x3faff6(0x1de),_0x152bd0),![];}else return console['error'](_0x3faff6(0x1de),_0x480184),![];}}function a11_0x486d(){const _0x4c2a2a=['rltvj','sbcKz','join','mmTBL','VArKy','LEVqJ','length','key','zlpMo','ouJwv','nLZiJ','reaction','tGCOY','rate-overlimit','JceMC','TAJZP','❌\x20Error\x20reacting\x20to\x20status:','qXinm','CcvmJ','reactOn','cDqCg','PXRgN','\x0a💫\x20*Status\x20Reactions:*\x20','qAjsY','MQWGY','940318HpuUQA','messages','wHHzl','zgRgP','pcaBu','sIMJe','QroXf','search','error','qlxpB','FwQpN','relayMessage','path','rXDxL','FRLCg','TqoAU','react','off','hfaeH','participant','zoHRe','369eCjjIO','remoteJid','parse','❌\x20Status\x20reactions\x20have\x20been\x20disabled!\x0aBot\x20will\x20no\x20longer\x20react\x20to\x20status\x20updates.','⚠️\x20Rate\x20limit\x20hit,\x20waiting\x20before\x20retrying...','dKQSh','WKeiZ','toString','NtBiW','writeFileSync','🇰🇪','log','../data/autoStatus.json','wYLhm','786geRraq','yjlMH','xzOMU','(((.+)+)+)+$','jnMzB','sjngX','fromMe','includes','hnRmj','status@broadcast','vWJCm','uvcUE','rxWHV','WXmeb','stringify','14581PYArJQ','2301836mSWdmV','IhTJx','dSpMN','oGcGX','iColI','uvyGx','2510AnPCdy','CmUSx','❌\x20Invalid\x20command!\x20Use:\x0a.autostatus\x20on/off\x20-\x20Enable/disable\x20auto\x20status\x20view\x0a.autostatus\x20react\x20on/off\x20-\x20Enable/disable\x20status\x20reactions','ZaDse','SXtwA','gWrYv','SKLCG','message','apply','enabled','ptaCr','❌\x20Error\x20in\x20auto\x20status\x20view:','7563336tHflBo','Error\x20checking\x20auto\x20status\x20config:','TpRTq','sendMessage','fkLat','🔄\x20*Auto\x20Status\x20Settings*\x0a\x0a📱\x20*Auto\x20Status\x20View:*\x20','WDLmJ','existsSync','UvAnF','YSlXZ','xnhBF','tLKcz','bBGZW','ogKcH','2634ymVAub','❌\x20This\x20command\x20can\x20only\x20be\x20used\x20by\x20the\x20owner!','KVMTy','Aylnx','cQDwi','cfmVR','MrxDW','uqwqQ','ngsfq','93710cTnOCY','2381470KtYgRB','Error\x20checking\x20status\x20reaction\x20config:','sbuAF','nmLyo','FYAaL','oKvRT','constructor','sLUKY','XMUIa','\x0a\x0a*Commands:*\x0a.autostatus\x20on\x20-\x20Enable\x20auto\x20status\x20view\x0a.autostatus\x20off\x20-\x20Disable\x20auto\x20status\x20view\x0a.autostatus\x20react\x20on\x20-\x20Enable\x20status\x20reactions\x0a.autostatus\x20react\x20off\x20-\x20Disable\x20status\x20reactions','toLowerCase','exports','SaZsC','readMessages','readFileSync','gEjos','dqskh','disabled','KBnGZ'];a11_0x486d=function(){return _0x4c2a2a;};return a11_0x486d();}function a11_0xe475(_0x2b2b45,_0x757693){const _0x26bb3f=a11_0x486d();return a11_0xe475=function(_0x565531,_0x57caa1){_0x565531=_0x565531-0x183;let _0x486dbf=_0x26bb3f[_0x565531];return _0x486dbf;},a11_0xe475(_0x2b2b45,_0x757693);}function isStatusReactionEnabled(){const _0x5935bb=a11_0x1394ed,_0x3c9c6b={'sbuAF':'Error\x20checking\x20status\x20reaction\x20config:'};try{const _0x17a43f=JSON[_0x5935bb(0x1af)](fs['readFileSync'](configPath));return _0x17a43f['reactOn'];}catch(_0x5674cc){return console[_0x5935bb(0x1a0)](_0x3c9c6b[_0x5935bb(0x1f7)],_0x5674cc),![];}}async function reactToStatus(_0x5b9b75,_0x55c530){const _0x1aba9a=a11_0x1394ed,_0x1df22d={'oKqtw':_0x1aba9a(0x1f6),'WKeiZ':function(_0x7d6929,_0x2cc8ae){return _0x7d6929===_0x2cc8ae;},'WXmeb':_0x1aba9a(0x1c0),'tGCOY':_0x1aba9a(0x209),'TqoAU':function(_0x4cc73a){return _0x4cc73a();},'zgRgP':_0x1aba9a(0x208),'vWJCm':'status@broadcast','wHHzl':_0x1aba9a(0x1b7),'uvyGx':function(_0x44797d,_0x32925f){return _0x44797d!==_0x32925f;},'PXRgN':_0x1aba9a(0x1f3),'fgpCs':_0x1aba9a(0x193),'UvAnF':_0x1aba9a(0x18f)};try{if(_0x1df22d[_0x1aba9a(0x1b3)](_0x1df22d[_0x1aba9a(0x1c8)],_0x1df22d[_0x1aba9a(0x18b)]))return;else{if(!_0x1df22d[_0x1aba9a(0x1a7)](isStatusReactionEnabled)){if(_0x1df22d[_0x1aba9a(0x1b3)](_0x1df22d[_0x1aba9a(0x19b)],_0x1df22d[_0x1aba9a(0x19b)]))return;else return _0x3eeb95[_0x1aba9a(0x1a0)](_0x1df22d['oKqtw'],_0x2a30d6),![];}await _0x5b9b75[_0x1aba9a(0x1a3)]('status@broadcast',{'reactionMessage':{'key':{'remoteJid':_0x1df22d[_0x1aba9a(0x1c5)],'id':_0x55c530['id'],'participant':_0x55c530[_0x1aba9a(0x1ab)]||_0x55c530['remoteJid'],'fromMe':![]},'text':_0x1df22d[_0x1aba9a(0x19a)]}},{'messageId':_0x55c530['id'],'statusJidList':[_0x55c530[_0x1aba9a(0x1ae)],_0x55c530['participant']||_0x55c530[_0x1aba9a(0x1ae)]]});}}catch(_0xa9c08b){if(_0x1df22d[_0x1aba9a(0x1d0)](_0x1df22d[_0x1aba9a(0x194)],_0x1df22d['fgpCs']))console[_0x1aba9a(0x1a0)](_0x1df22d[_0x1aba9a(0x1e5)],_0xa9c08b[_0x1aba9a(0x1d8)]);else throw _0x22f595;}}async function handleStatusUpdate(_0x486f8e,_0x21f27b){const _0x20e109=a11_0x1394ed,_0x40281f={'FwQpN':_0x20e109(0x1de),'WuvoU':_0x20e109(0x18f),'dKQSh':function(_0x13f547){return _0x13f547();},'oKvRT':function(_0x25073c,_0x413219){return _0x25073c>_0x413219;},'lbEDn':function(_0x1ecc5f,_0xcab0fa){return _0x1ecc5f===_0xcab0fa;},'hfaeH':_0x20e109(0x1c4),'cYdVb':_0x20e109(0x1d4),'ogKcH':_0x20e109(0x1bd),'uvcUE':function(_0x50abc9,_0x3c8356){return _0x50abc9!==_0x3c8356;},'sIMJe':_0x20e109(0x19c),'reGec':function(_0x5bbed1,_0xc6414f){return _0x5bbed1===_0xc6414f;},'tLKcz':_0x20e109(0x1e3),'JceMC':'QKEzr','QroXf':'⚠️\x20Rate\x20limit\x20hit,\x20waiting\x20before\x20retrying...','jnMzB':function(_0x3c038e,_0x1970f5,_0x91f8a6){return _0x3c038e(_0x1970f5,_0x91f8a6);},'fkLat':'rate-overlimit','ptaCr':function(_0x9f2307,_0x581785){return _0x9f2307===_0x581785;},'Azpvm':_0x20e109(0x183),'zlpMo':_0x20e109(0x1a6),'IhTJx':function(_0x12c965,_0x5e43e9,_0x16dace){return _0x12c965(_0x5e43e9,_0x16dace);},'KVMTy':_0x20e109(0x1d7),'XMUIa':_0x20e109(0x1dc)};try{if(!_0x40281f[_0x20e109(0x1b2)](isAutoStatusEnabled))return;await new Promise(_0x424b46=>setTimeout(_0x424b46,0x0));if(_0x21f27b['messages']&&_0x40281f[_0x20e109(0x1fa)](_0x21f27b[_0x20e109(0x199)][_0x20e109(0x185)],0x0)){const _0x3fbda5=_0x21f27b[_0x20e109(0x199)][0x0];if(_0x3fbda5[_0x20e109(0x186)]&&_0x40281f['lbEDn'](_0x3fbda5[_0x20e109(0x186)]['remoteJid'],_0x40281f[_0x20e109(0x1aa)])){if(_0x40281f['cYdVb']===_0x40281f[_0x20e109(0x1ea)])return _0x290632['error'](_0x40281f[_0x20e109(0x1a2)],_0x8e746c),![];else{try{if(_0x40281f[_0x20e109(0x1c6)](_0x40281f[_0x20e109(0x19d)],_0x40281f[_0x20e109(0x19d)])){if(_0x2e628d){const _0x50fb76=_0x21564d[_0x20e109(0x1d9)](_0x3c3c50,arguments);return _0x141197=null,_0x50fb76;}}else{await _0x486f8e['readMessages']([_0x3fbda5[_0x20e109(0x186)]]);const _0x30d9b6=_0x3fbda5[_0x20e109(0x186)][_0x20e109(0x1ab)]||_0x3fbda5['key'][_0x20e109(0x1ae)];await reactToStatus(_0x486f8e,_0x3fbda5[_0x20e109(0x186)]);}}catch(_0x3ac84c){if(_0x3ac84c[_0x20e109(0x1d8)]?.[_0x20e109(0x1c2)](_0x20e109(0x18c))){if(_0x40281f['reGec'](_0x40281f[_0x20e109(0x1e8)],_0x40281f[_0x20e109(0x18d)]))try{const _0x186d55=_0x44a1d6[_0x20e109(0x1af)](_0x5bfd49[_0x20e109(0x203)](_0xaa8508));return _0x186d55[_0x20e109(0x192)];}catch(_0x38a26d){return _0x31139b['error'](_0x20e109(0x1f6),_0x38a26d),![];}else console[_0x20e109(0x1b8)](_0x40281f['QroXf']),await new Promise(_0x42ec15=>setTimeout(_0x42ec15,0x7d0)),await _0x486f8e[_0x20e109(0x202)]([_0x3fbda5[_0x20e109(0x186)]]);}else throw _0x3ac84c;}return;}}}if(_0x21f27b[_0x20e109(0x186)]&&_0x21f27b['key']['remoteJid']==='status@broadcast'){try{await _0x486f8e['readMessages']([_0x21f27b['key']]);const _0x287d89=_0x21f27b[_0x20e109(0x186)][_0x20e109(0x1ab)]||_0x21f27b[_0x20e109(0x186)]['remoteJid'];await _0x40281f[_0x20e109(0x1bf)](reactToStatus,_0x486f8e,_0x21f27b[_0x20e109(0x186)]);}catch(_0x1c7ad3){if(_0x1c7ad3[_0x20e109(0x1d8)]?.['includes'](_0x40281f[_0x20e109(0x1e1)]))console[_0x20e109(0x1b8)](_0x20e109(0x1b1)),await new Promise(_0x34f65f=>setTimeout(_0x34f65f,0x7d0)),await _0x486f8e[_0x20e109(0x202)]([_0x21f27b[_0x20e109(0x186)]]);else throw _0x1c7ad3;}return;}if(_0x21f27b['reaction']&&_0x40281f['ptaCr'](_0x21f27b[_0x20e109(0x18a)][_0x20e109(0x186)][_0x20e109(0x1ae)],_0x20e109(0x1c4))){if(_0x40281f[_0x20e109(0x1db)](_0x20e109(0x183),_0x40281f['Azpvm'])){try{if(_0x40281f[_0x20e109(0x1c6)](_0x40281f[_0x20e109(0x187)],_0x20e109(0x1a6)))_0x4d63d4[_0x20e109(0x1a0)](_0x40281f['WuvoU'],_0x477d21['message']);else{await _0x486f8e['readMessages']([_0x21f27b[_0x20e109(0x18a)][_0x20e109(0x186)]]);const _0x301860=_0x21f27b[_0x20e109(0x18a)][_0x20e109(0x186)][_0x20e109(0x1ab)]||_0x21f27b[_0x20e109(0x18a)][_0x20e109(0x186)]['remoteJid'];await _0x40281f[_0x20e109(0x1cc)](reactToStatus,_0x486f8e,_0x21f27b[_0x20e109(0x18a)][_0x20e109(0x186)]);}}catch(_0x4f83c0){if(_0x4f83c0[_0x20e109(0x1d8)]?.[_0x20e109(0x1c2)](_0x40281f[_0x20e109(0x1e1)]))console[_0x20e109(0x1b8)](_0x40281f[_0x20e109(0x19e)]),await new Promise(_0x1810a5=>setTimeout(_0x1810a5,0x7d0)),await _0x486f8e[_0x20e109(0x202)]([_0x21f27b[_0x20e109(0x18a)][_0x20e109(0x186)]]);else{if(_0x40281f['ptaCr'](_0x40281f[_0x20e109(0x1ed)],_0x40281f[_0x20e109(0x1ed)]))throw _0x4f83c0;else{const _0x44d399=_0x42a440[_0x20e109(0x1d9)](_0x3d5943,arguments);return _0x4a359d=null,_0x44d399;}}}return;}else{const _0xf01cc0=_0x49d56d['parse'](_0xd89b7a[_0x20e109(0x203)](_0x34c709));return _0xf01cc0[_0x20e109(0x192)];}}}catch(_0xf75029){console['error'](_0x40281f[_0x20e109(0x1fd)],_0xf75029[_0x20e109(0x1d8)]);}}module[a11_0x1394ed(0x200)]={'autoStatusCommand':autoStatusCommand,'handleStatusUpdate':handleStatusUpdate};
+const fs = require('fs');
+const path = require('path');
+
+const configPath = path.join(__dirname, '../data/autoStatus.json');
+if (!fs.existsSync(configPath)) {
+    fs.writeFileSync(configPath, JSON.stringify({
+        enabled: false,
+        reactOn: false
+    }));
+}
+
+// --- Small helper for random human-like delays ---
+function randomDelay(min = 1500, max = 4000) {
+    return new Promise(resolve => setTimeout(resolve, Math.floor(Math.random() * (max - min + 1)) + min));
+}
+
+async function autoStatusCommand(sock, chatId, msg, args) {
+    try {
+        if (!msg.key.fromMe) {
+            await sock.sendMessage(chatId, { text: '❌ This command can only be used by the owner!' });
+            return;
+        }
+
+        let config = JSON.parse(fs.readFileSync(configPath));
+
+        if (!args || args.length === 0) {
+            const status = config.enabled ? 'enabled' : 'disabled';
+            const reactStatus = config.reactOn ? 'enabled' : 'disabled';
+            await sock.sendMessage(chatId, {
+                text: `🔄 *Auto Status Settings*\n\n📱 *Auto Status View:* ${status}\n💫 *Status Reactions:* ${reactStatus}\n\n*Commands:*\n.autostatus on - Enable auto status view\n.autostatus off - Disable auto status view\n.autostatus react on - Enable status reactions\n.autostatus react off - Disable status reactions`
+            });
+            return;
+        }
+
+        const command = args[0].toLowerCase();
+        if (command === 'on') {
+            config.enabled = true;
+            fs.writeFileSync(configPath, JSON.stringify(config));
+            await sock.sendMessage(chatId, { text: '✅ Auto status view has been enabled!' });
+        } else if (command === 'off') {
+            config.enabled = false;
+            fs.writeFileSync(configPath, JSON.stringify(config));
+            await sock.sendMessage(chatId, { text: '❌ Auto status view has been disabled!' });
+        } else if (command === 'react') {
+            if (!args[1]) {
+                await sock.sendMessage(chatId, { text: '❌ Please specify on/off for reactions!\nUse: .autostatus react on/off' });
+                return;
+            }
+            const reactCmd = args[1].toLowerCase();
+            config.reactOn = reactCmd === 'on';
+            fs.writeFileSync(configPath, JSON.stringify(config));
+            await sock.sendMessage(chatId, {
+                text: config.reactOn
+                    ? '💫 Status reactions have been enabled!'
+                    : '❌ Status reactions have been disabled!'
+            });
+        } else {
+            await sock.sendMessage(chatId, {
+                text: '❌ Invalid command! Use:\n.autostatus on/off\n.autostatus react on/off'
+            });
+        }
+    } catch (error) {
+        console.error('Error in autostatus command:', error);
+        await sock.sendMessage(chatId, { text: '❌ Error occurred while managing auto status!\n' + error.message });
+    }
+}
+
+function isAutoStatusEnabled() {
+    try {
+        const config = JSON.parse(fs.readFileSync(configPath));
+        return config.enabled;
+    } catch {
+        return false;
+    }
+}
+function isStatusReactionEnabled() {
+    try {
+        const config = JSON.parse(fs.readFileSync(configPath));
+        return config.reactOn;
+    } catch {
+        return false;
+    }
+}
+
+async function reactToStatus(sock, statusKey) {
+    if (!isStatusReactionEnabled()) return;
+    try {
+        await sock.relayMessage('status@broadcast', {
+            reactionMessage: {
+                key: {
+                    remoteJid: 'status@broadcast',
+                    id: statusKey.id,
+                    participant: statusKey.participant || statusKey.remoteJid,
+                    fromMe: false
+                },
+                text: '🇰🇪'
+            }
+        }, { messageId: statusKey.id });
+    } catch (err) {
+        console.error('❌ Error reacting to status:', err.message);
+    }
+}
+
+// --- Queued status handler ---
+let statusQueue = [];
+let processingQueue = false;
+
+async function processQueue(sock) {
+    if (processingQueue) return;
+    processingQueue = true;
+
+    while (statusQueue.length > 0) {
+        const statusKey = statusQueue.shift();
+        let success = false;
+        for (let attempt = 1; attempt <= 3 && !success; attempt++) {
+            try {
+                await sock.readMessages([statusKey]);
+                await reactToStatus(sock, statusKey);
+                success = true;
+            } catch (err) {
+                if (err.message?.includes('rate-overlimit')) {
+                    console.log('⚠️ Rate limit hit, retrying after 2s...');
+                    await new Promise(r => setTimeout(r, 2000));
+                } else {
+                    console.error('❌ Failed reading status:', err.message);
+                    break;
+                }
+            }
+        }
+        await randomDelay(); // Wait between statuses
+    }
+
+    processingQueue = false;
+}
+
+async function handleStatusUpdate(sock, status) {
+    try {
+        if (!isAutoStatusEnabled()) return;
+
+        let keys = [];
+
+        if (status.messages?.length > 0) {
+            keys = status.messages
+                .filter(m => m.key?.remoteJid === 'status@broadcast')
+                .map(m => m.key);
+        } else if (status.key?.remoteJid === 'status@broadcast') {
+            keys = [status.key];
+        } else if (status.reaction?.key?.remoteJid === 'status@broadcast') {
+            keys = [status.reaction.key];
+        }
+
+        if (keys.length > 0) {
+            statusQueue.push(...keys);
+            processQueue(sock); // process asynchronously
+        }
+
+    } catch (error) {
+        console.error('❌ Error in auto status view:', error.message);
+    }
+}
+
+module.exports = { autoStatusCommand, handleStatusUpdate };
