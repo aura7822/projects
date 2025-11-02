@@ -70,6 +70,8 @@ TIP 1 : # doing this using your handset is the best practice
 
 🚀 Deployment 
 
+🔹 Click the star button on the top right ☝🏽
+
 🔹 Step 1: Fork the Repository
 <div align="center"> <a href="https://github.com/aura7822/projects/fork"> <img src="https://img.shields.io/badge/Fork-Repository-blue?style=for-the-badge" alt="Fork this repository"/> </a> </div>
 
