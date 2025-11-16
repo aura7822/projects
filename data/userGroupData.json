@@ -1,7 +1,20 @@
 {
   "users": [],
   "groups": [],
-  "antilink": {},
+  "antilink": {
+    "120363421417718291@g.us": {
+      "enabled": false,
+      "action": "delete"
+    },
+    "254113334497@s.whatsapp.net": {
+      "enabled": false,
+      "action": "delete"
+    },
+    "254785345947@s.whatsapp.net": {
+      "enabled": false,
+      "action": "delete"
+    }
+  },
   "antibadword": {},
   "warnings": {},
   "sudo": [],
