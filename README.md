@@ -5,7 +5,7 @@
 <div align="center">
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
   <!-- Hacker Banner -->
-  <img src="https://github.com/aura7822/projects/blob/main/assets/cover.gif" alt="IM AURA Banner" width="100%" height="auto"/>
+  <img src="https://github.com/aura7822/projects/blob/main/assets/cover.gif" alt="IM AURA Banner" width="400" height="400"/>
 
   <!-- Title -->
   <h1 style="color:#33ff00; font-family:monospace;">🌹 AURORA™</h1>
