@@ -1,7 +1,13 @@
 {
+<<<<<<< HEAD
   "name": "aurora®",
   "version": "1.0.0",
   "description": "WhatsApp_bot",
+=======
+  "name": "aurora",
+  "version": "1.0.7",
+  "description": "WhatsApp assistant",
+>>>>>>> be284a9448a5fb08686a9dd181cc44b9a392bbae
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -15,6 +21,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "docker:build": "docker build -t docker run -e SESSION_ID=$SESSION_ID knightbot"
   },
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> be284a9448a5fb08686a9dd181cc44b9a392bbae
   "keywords": [
     "whatsapp-bot"
   ],
@@ -25,7 +35,11 @@
     "@ffmpeg/ffmpeg": "^0.12.15",
     "@hapi/boom": "^10.0.1",
     "@types/node": "^18.0.6",
+<<<<<<< HEAD
     "@whiskeysockets/baileys": "^v7.0.0-rc.9",
+=======
+    "@whiskeysockets/baileys": "^6.7.21",
+>>>>>>> be284a9448a5fb08686a9dd181cc44b9a392bbae
     "awesome-phonenumber": "^5.9.0",
     "axios": "^1.8.4",
     "chalk": "^4.1.2",
