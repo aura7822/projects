@@ -1,3 +1,4 @@
+<div align="center">
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=500&color=aa5500&center=true&width=1200&height=100&lines=HELLO%20WORLD%20WELCOME;LOADING%20MODULES%20.%20.%20.%20.%20.%20.;CREATED%20BY%20AURORA-XMD" alt="Typing SVG" />
@@ -8,69 +9,59 @@
   <img src="https://github.com/aura7822/projects/blob/main/assets/cover.gif" alt="IM AURA Banner" width="400" height="400"/>
 
   <!-- Title -->
-  <h1 style="color:#33ff00; font-family:monospace;">🌹 AURORA™</h1>
-
-  <p><b>CURRENT BOT VERSION ➜ <code>2.7.0 ⚡</code></b></p>
+  <h1 style="color:#33ff00; font-family:monospace;">🌹 BOT™</h1>
 
   <!-- Badges -->
   <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge&logo=github&color=33ff00" />
   <img src="https://img.shields.io/badge/Platform-WhatsApp-25D366?style=for-the-badge&logo=whatsapp" />
   <img src="https://img.shields.io/badge/Made_With-Baileys-blueviolet?style=for-the-badge" />
+   <img src="https://img.shields.io/badge/VERSION-2.7.7-blueviolet?style=for-the-badge" />
 
 </div>
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-
-🌹 AURORA™ || VERSION `2.7.0`
 <div align="center">
   <hr style="border: none; height: 3px; background: linear-gradient(90deg, #00ff00, #33ff00, #00ff00); box-shadow: 0 0 10px #33ff00, 0 0 20px #00ff00;">
 </div>
 
+<table><tr><td>
+🌹 BOT™  Yet another handy whatsapp gatekeeper.Embedded with not less than 170 tools to drive daily software desires - coded with precision in mind hence delivering a generous user experience
 
-🌹 AURORA™ is a multi-device powerfull WhatsApp assistant powered by Baileys MD, built with a hacker-themed cyberpunk vibe 🕶️.
-It’s crafted for speed ⚡, security 🔐, and full customization 🛠️, giving you complete control over WhatsApp through powerful automation.
-Packed with over 170 commands to satisfy your automation needs
-
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-✨ Core Features :
-
-⚡ Command System → .commands for music, tools, and fun.
-
-🎭 Hacker-Themed UI → sleek terminal-like .help menu.
-
-📂 Media Tools → download videos, audio, documents, and more.
-
-🔐 Security Features → anti-delete, anti-invite, anti-link, and group management.
-
-🤖 Automation → auto-replies, AI chat (.gpt), text-to-speech (.tts).
-
-🎮 Games & Fun → Tic-Tac-Toe, sticker creation (.sticker), memes.
-
-🛠️ Customizable → add or remove commands easily.
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+</td></tr></table>
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-🔧 Tech Stack:
+## Tasks :
+> Command System → .commands for music, tools, and fun.
 
-Node.js + Baileys MD
+> Media Tools → download videos, audio, documents, and more.
 
-Supports yt-dlp, ffmpeg, and other libraries
+> Security Features → anti-delete, anti-invite, anti-link, and group management.
 
-Deployable on Heroku / Render / VPS / Katabump
+> Autonomity → auto-replies, AI chat (.gpt), text-to-speech (.tts).
+
+> Games → Tic-Tac-Toe, sticker creation (.sticker), memes.
+
+> Customisation → deploy or revoke commands .
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
+## Tech Stack:
+
+> Node.js + Baileys MD
+
+> Supports yt-dlp, ffmpeg, and other libraries
+
+> Deployable on Heroku / Render / VPS / Katabump
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-<div align="center"> <a href="https://git.io/typing-svg"> <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=500&color=A020F0&center=true&width=910&height=100&lines=AURORA;Multi+Device+Whatsapp+Bot;Coded+By+Aura" alt="Typing SVG" /> </a> </div> <div align="center"> <a href="https://www.youtube.com/watch?v=37RBJt33J68&list=RDGMEMYH9CUrFO7CfLJpaD7UR85wVM37RBJt33J68&start_radio=1"> <img src="https://github.com/aura7822/projects/blob/main/assets/matrix.gif" alt="IM AURA" height="300"> </a> </div>
+<div align="center"> <a href="https://git.io/typing-svg"> <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=500&color=A020F0&center=true&width=910&height=100&lines=AURORA;Multi+Device+Whatsapp+Bot;Coded+By+Aura" alt="Typing SVG" /> </a> </div> <div align="center"> <a href="https://www.youtube.com/watch?v=37RBJt33J68&list=RDGMEMYH9CUrFO7CfLJpaD7UR85wVM37RBJt33J68&start_radio=1"> </div>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-TIP 1 : # doing this using your handset is the best practice
+``` 🛈TIP  : Handset use for the below procedures is highly recommended```
 
-🚀 Deployment 
+## Deployment 
 
-🔹 Click the star button on the top right ☝🏽
+🔹 Click the star button on the top right ➚
 
 🔹 Step 1: Fork the Repository
 <div align="center"> <a href="https://github.com/aura7822/projects/fork"> <img src="https://img.shields.io/badge/Fork-Repository-blue?style=for-the-badge" alt="Fork this repository"/> </a> </div>
@@ -78,8 +69,6 @@ TIP 1 : # doing this using your handset is the best practice
 ---
 
 🔹 Step 2: Get Pair Code
-
-TIP 2 : # run this from your handset for best practice, you can use pc if you have test of qr codes
 
 Generate a pair code to link your WhatsApp account.
 
@@ -89,19 +78,23 @@ Generate a pair code to link your WhatsApp account.
   </a>
 </div>
 
+```🛈TIP : Linking whatsapp account comes with duality : laptop[qr code highly advised] handset[paircode highly advised]```
+```A creds.json file will be messaged to your account - guard it - its highly confidential```
 
-📂 After getting your creds.json, upload it into the /session folder.
+
+### After getting your creds.json, upload it into the /session folder.
+
 ---
-TIP 3 : # deploying this using your PC is the best practice
+```🛈TIP : With a pc, liquidityof this stage will be upgraded```
 
-🔹 Step 3: Deploy
+🔹 Step 3: Deploy [Katabump account necessary]
 <div align="center">
   <a href="https://katabump.com/login" target="_blank">
     <img src="https://img.shields.io/badge/Deploy%20on%20Katabump-28a745?style=for-the-badge" alt="Deploy on Katabump"/>
   </a>
 </div>
 
-🢧 Once you reach Katabump, create a server and name it .
+🢧 Once you reach Katabump, create a server and name it any name.
 
 🢧 After creation navigate to file manager and click upload button on the top right.
 
@@ -116,24 +109,7 @@ TIP 3 : # deploying this using your PC is the best practice
 GOOD LUCK !
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-# ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-⚙️ Additional Features :
 
-🧠 AI Chat with .gpt or .sora
-
-🛡️ Anti-delete (recovers deleted messages)
-
-📢 Tag all group members with .tagall
-
-👮 Admin-only commands for moderation
-
-🎮 Mini-games for group fun
-
-🔗 Anti-link protection for safe groups
-
-🚨 Warn & manage members with strike system
-
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 🛠️ Setup & Installation
 🔑 Prerequisites :
@@ -149,8 +125,8 @@ GOOD LUCK !
 ※Spotify playlist (optional btw)
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-🔹 Steps For Native hosting (unrecommended) :
+
+🔹 Steps For Native hosting (expert tier) :
 # 🨀Clone the repo
 git clone https://github.com/aura7822/projects.git
 
@@ -163,7 +139,7 @@ npm install
 node index.js
 
 
-👉 Scan the QR code from terminal → Linked Devices in WhatsApp.
+ Scan the QR code from terminal → Linked Devices in WhatsApp.
 
 ## FOR TERMUX/SSH/LINUX systems
 ```
@@ -256,7 +232,5 @@ Render
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 Copyright © 2025 aura.
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-# ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-
+</div>
 
